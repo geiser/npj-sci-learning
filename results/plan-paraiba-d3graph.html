@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+        </head><body> 
+ <style>
+.link {
+stroke: #666;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+.node circle {
+stroke: #fff;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+text {
+font: 7px serif;
+opacity: 0.6;
+pointer-events: none;
+}
+</style>
+
+<script src="plan-paraiba-d3graph_files/d3.js"></script>
+
+<script> 
+ var links = [ { "source" : "training", "target" : "training in innovative pedagogical practices" }, { "source" : "assess", "target" : "academic achievements" }, { "source" : "assess", "target" : "digital competences" }, { "source" : "distribution", "target" : "digital resouces" }, { "source" : "assess", "target" : "schools actions reports" }, { "source" : "development", "target" : "learning platforms" }, { "source" : "distribution", "target" : "equipment for teaching" }, { "source" : "distribution", "target" : "learning platforms" }, { "source" : "expertise", "target" : "digital competences" }, { "source" : "expertise", "target" : "training in innovative pedagogical practices" }, { "source" : "vision", "target" : "academic achievements" }, { "source" : "vision", "target" : "digital competences" }, { "source" : "vision", "target" : "schools actions reports" }, { "source" : "material", "target" : "digital resouces" }, { "source" : "material", "target" : "learning platforms" }, { "source" : "infrastructure", "target" : "digital resouces" }, { "source" : "infrastructure", "target" : "equipment for teaching" }, { "source" : "infrastructure", "target" : "learning platforms" }, { "source" : "collaboration", "target" : "collaboration networks" }, { "source" : "expertise", "target" : "collaboration networks" }, { "source" : "vision", "target" : "collaboration networks" }, { "source" : "development", "target" : "labs/environments for schools" }, { "source" : "material", "target" : "labs/environments for schools" }, { "source" : "infrastructure", "target" : "labs/environments for schools" }, { "source" : "assess", "target" : "dissemination" }, { "source" : "promotion", "target" : "dissemination" }, { "source" : "vision", "target" : "dissemination" }, { "source" : "infrastructure", "target" : "internet infrastructure in schools" }, { "source" : "training", "target" : "training in digital resources" }, { "source" : "expertise", "target" : "training in digital resources" }, { "source" : "material", "target" : "training in digital resources" }, { "source" : "development", "target" : "guidelines for digital resources" }, { "source" : "vision", "target" : "guidelines for digital resources" }, { "source" : "material", "target" : "guidelines for digital resources" }, { "source" : "training", "target" : "training in education management" }, { "source" : "expertise", "target" : "training in education management" }, { "source" : "vision", "target" : "training in education management" }, { "source" : "distribution", "target" : "innovative pedag practices" }, { "source" : "vision", "target" : "innovative pedag practices" }, { "source" : "distribution", "target" : "technology in pedag practices" }, { "source" : "expertise", "target" : "technology in pedag practices" }, { "source" : "vision", "target" : "technology in pedag practices" }, { "source" : "promotion", "target" : "learning in right age" }, { "source" : "vision", "target" : "learning in right age" }, { "source" : "vision", "target" : "reestructuring learning content" }, { "source" : "material", "target" : "reestructuring learning content" }, { "source" : "development", "target" : "collaboration networks" }, { "source" : "assess", "target" : "student engagement" }, { "source" : "promotion", "target" : "student engagement" }, { "source" : "vision", "target" : "student engagement" } ] ; 
+ var nodes = {}
+
+// Compute the distinct nodes from the links.
+links.forEach(function(link) {
+link.source = nodes[link.source] ||
+(nodes[link.source] = {name: link.source});
+link.target = nodes[link.target] ||
+(nodes[link.target] = {name: link.target});
+link.value = +link.value;
+});
+
+var width = 1920
+height = 1058;
+
+var force = d3.layout.force()
+.nodes(d3.values(nodes))
+.links(links)
+.size([width, height])
+.linkDistance(50)
+.charge(-200)
+.on("tick", tick)
+.start();
+
+var svg = d3.select("body").append("svg")
+.attr("width", width)
+.attr("height", height);
+
+var link = svg.selectAll(".link")
+.data(force.links())
+.enter().append("line")
+.attr("class", "link");
+
+var node = svg.selectAll(".node")
+.data(force.nodes())
+.enter().append("g")
+.attr("class", "node")
+.on("mouseover", mouseover)
+.on("mouseout", mouseout)
+.on("click", click)
+.on("dblclick", dblclick)
+.call(force.drag);
+
+node.append("circle")
+.attr("r", 8)
+.style("fill", "#3182bd");
+
+node.append("text")
+.attr("x", 12)
+.attr("dy", ".35em")
+.style("fill", "#3182bd")
+.text(function(d) { return d.name; });
+
+function tick() {
+link
+.attr("x1", function(d) { return d.source.x; })
+.attr("y1", function(d) { return d.source.y; })
+.attr("x2", function(d) { return d.target.x; })
+.attr("y2", function(d) { return d.target.y; });
+
+node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+function mouseover() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 16);
+}
+
+function mouseout() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 8);
+}
+// action to take on mouse click
+function click() {
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 22)
+.style("stroke-width", ".5px")
+.style("opacity", 1)
+.style("fill", "#E34A33")
+.style("font", "17.5px serif");
+d3.select(this).select("circle").transition()
+.duration(750)
+.style("fill", "#E34A33")
+.attr("r", 16)
+}
+
+// action to take on mouse double click
+function dblclick() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 6)
+.style("fill", "#E34A33");
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 12)
+.style("stroke", "none")
+.style("fill", "#E34A33")
+.style("stroke", "none")
+.style("opacity", 0.6)
+.style("font", "7px serif");
+}
+
+</script><svg width="1920" height="1058"><line class="link" x1="968.4487754597255" y1="491.8481577328176" x2="1012.5283192248884" y2="552.6219070342449"></line><line class="link" x1="1111.4640416306" y1="454.5822936783987" x2="1055.3438815671188" y2="446.76806654850327"></line><line class="link" x1="1111.4640416306" y1="454.5822936783987" x2="1042.5812445661293" y2="467.5994440961446"></line><line class="link" x1="869.8495142011573" y1="486.6928733445309" x2="840.6191213797737" y2="537.060953834221"></line><line class="link" x1="1111.4640416306" y1="454.5822936783987" x2="1072.859738161301" y2="485.933687625204"></line><line class="link" x1="908.4943580677626" y1="612.3576114293471" x2="851.06425511689" y2="561.531767552705"></line><line class="link" x1="869.8495142011573" y1="486.6928733445309" x2="806.8947130731568" y2="498.3103506124161"></line><line class="link" x1="869.8495142011573" y1="486.6928733445309" x2="851.06425511689" y2="561.531767552705"></line><line class="link" x1="987.2421427980655" y1="511.04315689323647" x2="1042.5812445661293" y2="467.5994440961446"></line><line class="link" x1="987.2421427980655" y1="511.04315689323647" x2="1012.5283192248884" y2="552.6219070342449"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="1055.3438815671188" y2="446.76806654850327"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="1042.5812445661293" y2="467.5994440961446"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="1072.859738161301" y2="485.933687625204"></line><line class="link" x1="890.124584323457" y1="585.5035018871253" x2="840.6191213797737" y2="537.060953834221"></line><line class="link" x1="890.124584323457" y1="585.5035018871253" x2="851.06425511689" y2="561.531767552705"></line><line class="link" x1="793.0155594435007" y1="565.4210463182637" x2="840.6191213797737" y2="537.060953834221"></line><line class="link" x1="793.0155594435007" y1="565.4210463182637" x2="806.8947130731568" y2="498.3103506124161"></line><line class="link" x1="793.0155594435007" y1="565.4210463182637" x2="851.06425511689" y2="561.531767552705"></line><line class="link" x1="1003.2863188580171" y1="650.9302851649551" x2="988.7211828446519" y2="583.4445060306703"></line><line class="link" x1="987.2421427980655" y1="511.04315689323647" x2="988.7211828446519" y2="583.4445060306703"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="988.7211828446519" y2="583.4445060306703"></line><line class="link" x1="908.4943580677626" y1="612.3576114293471" x2="839.6559968523324" y2="615.5649237648282"></line><line class="link" x1="890.124584323457" y1="585.5035018871253" x2="839.6559968523324" y2="615.5649237648282"></line><line class="link" x1="793.0155594435007" y1="565.4210463182637" x2="839.6559968523324" y2="615.5649237648282"></line><line class="link" x1="1111.4640416306" y1="454.5822936783987" x2="1087.7580680484882" y2="523.0025704250495"></line><line class="link" x1="1130.7375991608849" y1="563.569593483026" x2="1087.7580680484882" y2="523.0025704250495"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="1087.7580680484882" y2="523.0025704250495"></line><line class="link" x1="793.0155594435007" y1="565.4210463182637" x2="754.0795692754823" y2="519.309165822976"></line><line class="link" x1="968.4487754597255" y1="491.8481577328176" x2="923.884356865909" y2="533.112196434685"></line><line class="link" x1="987.2421427980655" y1="511.04315689323647" x2="923.884356865909" y2="533.112196434685"></line><line class="link" x1="890.124584323457" y1="585.5035018871253" x2="923.884356865909" y2="533.112196434685"></line><line class="link" x1="908.4943580677626" y1="612.3576114293471" x2="950.033908515935" y2="563.3338399695987"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="950.033908515935" y2="563.3338399695987"></line><line class="link" x1="890.124584323457" y1="585.5035018871253" x2="950.033908515935" y2="563.3338399695987"></line><line class="link" x1="968.4487754597255" y1="491.8481577328176" x2="1000.0341684680114" y2="452.4474884709075"></line><line class="link" x1="987.2421427980655" y1="511.04315689323647" x2="1000.0341684680114" y2="452.4474884709075"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="1000.0341684680114" y2="452.4474884709075"></line><line class="link" x1="869.8495142011573" y1="486.6928733445309" x2="938.7570522174856" y2="492.8016406888054"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="938.7570522174856" y2="492.8016406888054"></line><line class="link" x1="869.8495142011573" y1="486.6928733445309" x2="948.0835553582405" y2="468.40798479385717"></line><line class="link" x1="987.2421427980655" y1="511.04315689323647" x2="948.0835553582405" y2="468.40798479385717"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="948.0835553582405" y2="468.40798479385717"></line><line class="link" x1="1130.7375991608849" y1="563.569593483026" x2="1071.0257932616928" y2="569.7757193078298"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="1071.0257932616928" y2="569.7757193078298"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="963.9977524218896" y2="578.4136552740293"></line><line class="link" x1="890.124584323457" y1="585.5035018871253" x2="963.9977524218896" y2="578.4136552740293"></line><line class="link" x1="908.4943580677626" y1="612.3576114293471" x2="988.7211828446519" y2="583.4445060306703"></line><line class="link" x1="1111.4640416306" y1="454.5822936783987" x2="1098.8948590328991" y2="509.0355950476659"></line><line class="link" x1="1130.7375991608849" y1="563.569593483026" x2="1098.8948590328991" y2="509.0355950476659"></line><line class="link" x1="1020.1870769063729" y1="517.639324072592" x2="1098.8948590328991" y2="509.0355950476659"></line><g class="node" transform="translate(968.4487754597255,491.8481577328176)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training</text></g><g class="node" transform="translate(1012.5283192248884,552.6219070342449)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training in innovative pedagogical practices</text></g><g class="node" transform="translate(1111.4640416306,454.5822936783987)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">assess</text></g><g class="node" transform="translate(1055.3438815671188,446.76806654850327)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">academic achievements</text></g><g class="node" transform="translate(1042.5812445661293,467.5994440961446)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">digital competences</text></g><g class="node" transform="translate(869.8495142011573,486.6928733445309)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">distribution</text></g><g class="node" transform="translate(840.6191213797737,537.060953834221)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">digital resouces</text></g><g class="node" transform="translate(1072.859738161301,485.933687625204)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">schools actions reports</text></g><g class="node" transform="translate(908.4943580677626,612.3576114293471)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">development</text></g><g class="node" transform="translate(851.06425511689,561.531767552705)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">learning platforms</text></g><g class="node" transform="translate(806.8947130731568,498.3103506124161)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">equipment for teaching</text></g><g class="node" transform="translate(987.2421427980655,511.04315689323647)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">expertise</text></g><g class="node" transform="translate(1020.1870769063729,517.639324072592)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">vision</text></g><g class="node" transform="translate(890.124584323457,585.5035018871253)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">material</text></g><g class="node" transform="translate(793.0155594435007,565.4210463182637)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">infrastructure</text></g><g class="node" transform="translate(1003.2863188580171,650.9302851649551)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">collaboration</text></g><g class="node" transform="translate(988.7211828446519,583.4445060306703)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">collaboration networks</text></g><g class="node" transform="translate(839.6559968523324,615.5649237648282)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">labs/environments for schools</text></g><g class="node" transform="translate(1087.7580680484882,523.0025704250495)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">dissemination</text></g><g class="node" transform="translate(1130.7375991608849,563.569593483026)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">promotion</text></g><g class="node" transform="translate(754.0795692754823,519.309165822976)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">internet infrastructure in schools</text></g><g class="node" transform="translate(923.884356865909,533.112196434685)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training in digital resources</text></g><g class="node" transform="translate(950.033908515935,563.3338399695987)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">guidelines for digital resources</text></g><g class="node" transform="translate(1000.0341684680114,452.4474884709075)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training in education management</text></g><g class="node" transform="translate(938.7570522174856,492.8016406888054)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">innovative pedag practices</text></g><g class="node" transform="translate(948.0835553582405,468.40798479385717)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">technology in pedag practices</text></g><g class="node" transform="translate(1071.0257932616928,569.7757193078298)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">learning in right age</text></g><g class="node" transform="translate(963.9977524218896,578.4136552740293)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">reestructuring learning content</text></g><g class="node" transform="translate(1098.8948590328991,509.0355950476659)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">student engagement</text></g></svg>
+ </body></html>

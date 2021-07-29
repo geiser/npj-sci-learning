@@ -1,0 +1,88 @@
+﻿fileCat,(Multiple Items),,,,,,,,,,,,,,,,,,,Codes,Goals/Evidence,Strategies,Total,,,,,,,,,,,,,,,,,,,,Codes,Goals,Evidence,Strategies (Vision),Strategies (Infrastructure),Strategies (Expertise),Strategies (Material),Total,,,,,,,,,,,,,,,,,Codes,Adoption,Planning,Investment,Total
+,,,,,,,,,,,,,,,,,,,,social/equality program,1,28,29,,,,,,,,,,,,,,,,,,,,trainning courses,,,2,1,2,,5,,,,,,,,,,,,,,,,,management units,2,2,2,6
+Count of codeID,Column Labels,,,,,,,,,,,,,,,,,,,democratic/public participation,3,18,21,,,,,,,,,,,,,,,,,,,,education TV,,,1,1,,2,4,,,,,,,,,,,,,,,,,partnership with public institutions,1,1,1,3
+Codes,01.A-Plan,01.B-Plan (Goals/Evidence),01.C-Plan (Strategies),02.A-Remote,02.B-Remote (Goals),02.C-Remote (Evidence),02.D-Remote (Strategies),02.E-Remote (Strategies: Vision),02.F-Remote (Strategies: Infrastructure),02.G-Remote (Strategies: Expertise),02.H-Remote (Strategies: Material),03.A-Hybrid,03.B-Hybrid (Adoption),03.C-Hybrid (Planning),03.D-Hybrid (Investment),Grand Total,,,,financial resources,1,19,20,,,,,,,,,,,,,,,,,,,,paper-based material,,,2,,,1,3,,,,,,,,,,,,,,,,,school health resources,1,1,1,3
+academic achievements,10,6,4,1,1,,,,,,,,,,,22,,,,meet ed-demand,,16,16,,,,,,,,,,,,,,,,,,,,schools actions reports,1,2,,,,,3,,,,,,,,,,,,,,,,,schools actions reports,1,1,1,3
+accessibility facilities,1,1,,,,,,,,,,,,,,2,,,,partnership with public institutions,,15,15,,,,,,,,,,,,,,,,,,,,free Internet access,,,1,1,,,2,,,,,,,,,,,,,,,,,equipment for students,,,1,1
+better teacher laboral conditions,5,4,1,,,,,,,,,,,,,10,,,,physical school infrastructure,2,9,11,,,,,,,,,,,,,,,,,,,,Google products,,,,,,2,2,,,,,,,,,,,,,,,,,equipment for teaching,,,1,1
+collaboration networks,1,1,,,,,,,,,,,,,,2,,,,teacher career,3,8,11,,,,,,,,,,,,,,,,,,,,learning platforms,,,1,1,,,2,,,,,,,,,,,,,,,,,hire teachers,,,1,1
+democratic/public participation,21,3,18,,,,,,,,,,,,,42,,,,trainning courses,1,10,11,,,,,,,,,,,,,,,,,,,,partnership for learning content,,,1,1,,,2,,,,,,,,,,,,,,,,,learning mobile apps,1,,,1
+digital competences,4,3,1,,,,,,,,,,,,,8,,,,academic achievements,6,4,10,,,,,,,,,,,,,,,,,,,,partnership with private institutions,,,1,,1,,2,,,,,,,,,,,,,,,,,learning platforms,1,,,1
+digital resouces,3,1,2,1,,,1,1,,,,,,,,9,,,,learning in right age,5,4,9,,,,,,,,,,,,,,,,,,,,academic achievements,1,,,,,,1,,,,,,,,,,,,,,,,,trainning courses,,,1,1
+dissemination,5,,5,,,,,,,,,,,,,10,,,,school attendance (freq),5,3,8,,,,,,,,,,,,,,,,,,,,digital resouces,,,1,,,,1,,,,,,,,,,,,,,,,,academic achievements,,,,0
+education quality,6,1,5,,,,,,,,,,,,,12,,,,technology in pedag practices,2,6,8,,,,,,,,,,,,,,,,,,,,education radio,,,1,,,,1,,,,,,,,,,,,,,,,,accessibility facilities,,,,0
+education radio,,,,1,,,1,1,,,,,,,,3,,,,education quality,1,5,6,,,,,,,,,,,,,,,,,,,,external assessments,,1,,,,,1,,,,,,,,,,,,,,,,,better teacher laboral conditions,,,,0
+education TV,,,,4,,,4,1,1,,2,,,,,12,,,,internet infrastructure in schools,2,4,6,,,,,,,,,,,,,,,,,,,,guidelines to remote learning,,,,,1,,1,,,,,,,,,,,,,,,,,collaboration networks,,,,0
+enrollments in adult education,3,3,,,,,,,,,,,,,,6,,,,better teacher laboral conditions,4,1,5,,,,,,,,,,,,,,,,,,,,hire teachers,,,,1,,,1,,,,,,,,,,,,,,,,,democratic/public participation,,,,0
+enrollments in higher education,5,5,,,,,,,,,,,,,,10,,,,dissemination,,5,5,,,,,,,,,,,,,,,,,,,,learning mobile apps,,,,,,1,1,,,,,,,,,,,,,,,,,digital competences,,,,0
+enrollments in nurseries,2,2,,,,,,,,,,,,,,4,,,,enrollments in higher education,5,,5,,,,,,,,,,,,,,,,,,,,media access,,1,,,,,1,,,,,,,,,,,,,,,,,digital resouces,,,,0
+enrollments in public schools,2,2,,,,,,,,,,,,,,4,,,,equipment for teaching,2,3,5,,,,,,,,,,,,,,,,,,,,Microsoft products,,,,,,1,1,,,,,,,,,,,,,,,,,dissemination,,,,0
+enrollments in special education,4,3,1,,,,,,,,,,,,,8,,,,extracurricular activities,,5,5,,,,,,,,,,,,,,,,,,,,num of access,,,,,,1,1,,,,,,,,,,,,,,,,,education quality,,,,0
+enrollments in techical education,1,1,,,,,,,,,,,,,,2,,,,literacy education,2,3,5,,,,,,,,,,,,,,,,,,,,partnership with international agencies,,,1,,,,1,,,,,,,,,,,,,,,,,education radio,,,,0
+equipment for students,,,,,,,,,,,,1,,,1,2,,,,partnership with private institutions,,5,5,,,,,,,,,,,,,,,,,,,,school feeding program,,,1,,,,1,,,,,,,,,,,,,,,,,education TV,,,,0
+equipment for teaching,5,2,3,,,,,,,,,1,,,1,12,,,,reestructuring learning content,,5,5,,,,,,,,,,,,,,,,,,,,social media,,,1,,,,1,,,,,,,,,,,,,,,,,enrollments in adult education,,,,0
+external assessments,1,,1,1,,1,,,,,,,,,,4,,,,training in education management,,5,5,,,,,,,,,,,,,,,,,,,,training event,,,,,,1,1,,,,,,,,,,,,,,,,,enrollments in higher education,,,,0
+extracurricular activities,5,,5,,,,,,,,,,,,,10,,,,digital competences,3,1,4,,,,,,,,,,,,,,,,,,,,accessibility facilities,,,,,,,0,,,,,,,,,,,,,,,,,enrollments in nurseries,,,,0
+financial resources,20,1,19,,,,,,,,,,,,,40,,,,enrollments in special education,3,1,4,,,,,,,,,,,,,,,,,,,,better teacher laboral conditions,,,,,,,0,,,,,,,,,,,,,,,,,enrollments in public schools,,,,0
+free Internet access,,,,2,,,2,1,1,,,,,,,6,,,,hire teachers,2,2,4,,,,,,,,,,,,,,,,,,,,collaboration networks,,,,,,,0,,,,,,,,,,,,,,,,,enrollments in special education,,,,0
+full-time education,3,1,2,,,,,,,,,,,,,6,,,,learning contents,,4,4,,,,,,,,,,,,,,,,,,,,democratic/public participation,,,,,,,0,,,,,,,,,,,,,,,,,enrollments in techical education,,,,0
+functional illiterates,2,2,,,,,,,,,,,,,,4,,,,learning platforms,2,2,4,,,,,,,,,,,,,,,,,,,,digital competences,,,,,,,0,,,,,,,,,,,,,,,,,external assessments,,,,0
+Google products,,,,2,,,2,,,,2,,,,,6,,,,management units,,4,4,,,,,,,,,,,,,,,,,,,,dissemination,,,,,,,0,,,,,,,,,,,,,,,,,extracurricular activities,,,,0
+guidelines for digital resources,1,,1,,,,,,,,,,,,,2,,,,participation in national assessment,,4,4,,,,,,,,,,,,,,,,,,,,education quality,,,,,,,0,,,,,,,,,,,,,,,,,financial resources,,,,0
+guidelines to remote learning,,,,1,,,1,,,1,,,,,,3,,,,training in innovative pedagogical practices,2,2,4,,,,,,,,,,,,,,,,,,,,enrollments in adult education,,,,,,,0,,,,,,,,,,,,,,,,,free Internet access,,,,0
+healtly programs,3,,3,,,,,,,,,,,,,6,,,,digital resouces,1,2,3,,,,,,,,,,,,,,,,,,,,enrollments in higher education,,,,,,,0,,,,,,,,,,,,,,,,,full-time education,,,,0
+hire teachers,4,2,2,1,,,1,,1,,,1,,,1,13,,,,enrollments in adult education,3,,3,,,,,,,,,,,,,,,,,,,,enrollments in nurseries,,,,,,,0,,,,,,,,,,,,,,,,,functional illiterates,,,,0
+incentivate parents participation,1,,1,,,,,,,,,,,,,2,,,,full-time education,1,2,3,,,,,,,,,,,,,,,,,,,,enrollments in public schools,,,,,,,0,,,,,,,,,,,,,,,,,Google products,,,,0
+individual actions,2,,2,,,,,,,,,,,,,4,,,,healtly programs,,3,3,,,,,,,,,,,,,,,,,,,,enrollments in special education,,,,,,,0,,,,,,,,,,,,,,,,,guidelines for digital resources,,,,0
+innovative pedag practices,3,3,,,,,,,,,,,,,,6,,,,innovative pedag practices,3,,3,,,,,,,,,,,,,,,,,,,,enrollments in techical education,,,,,,,0,,,,,,,,,,,,,,,,,guidelines to remote learning,,,,0
+interactive materials,1,,1,,,,,,,,,,,,,2,,,,L2 education,,3,3,,,,,,,,,,,,,,,,,,,,equipment for students,,,,,,,0,,,,,,,,,,,,,,,,,healtly programs,,,,0
+internet infrastructure in schools,6,2,4,,,,,,,,,,,,,12,,,,labs/environments for schools,,3,3,,,,,,,,,,,,,,,,,,,,equipment for teaching,,,,,,,0,,,,,,,,,,,,,,,,,incentivate parents participation,,,,0
+L2 education,3,,3,,,,,,,,,,,,,6,,,,mechanism for school permance,,3,3,,,,,,,,,,,,,,,,,,,,extracurricular activities,,,,,,,0,,,,,,,,,,,,,,,,,individual actions,,,,0
+labs/environments for schools,3,,3,,,,,,,,,,,,,6,,,,partnership with international agencies,,3,3,,,,,,,,,,,,,,,,,,,,financial resources,,,,,,,0,,,,,,,,,,,,,,,,,innovative pedag practices,,,,0
+learning contents,4,,4,,,,,,,,,,,,,8,,,,quality parameters,,3,3,,,,,,,,,,,,,,,,,,,,full-time education,,,,,,,0,,,,,,,,,,,,,,,,,interactive materials,,,,0
+learning in right age,9,5,4,,,,,,,,,,,,,18,,,,schools actions reports,,3,3,,,,,,,,,,,,,,,,,,,,functional illiterates,,,,,,,0,,,,,,,,,,,,,,,,,internet infrastructure in schools,,,,0
+learning mobile apps,,,,1,,,1,,,,1,1,1,,,5,,,,STEAM courses,,3,3,,,,,,,,,,,,,,,,,,,,guidelines for digital resources,,,,,,,0,,,,,,,,,,,,,,,,,L2 education,,,,0
+learning platforms,4,2,2,2,,,2,1,1,,,1,1,,,16,,,,student graduation,,3,3,,,,,,,,,,,,,,,,,,,,healtly programs,,,,,,,0,,,,,,,,,,,,,,,,,labs/environments for schools,,,,0
+literacy education,5,2,3,,,,,,,,,,,,,10,,,,training in digital resources,2,1,3,,,,,,,,,,,,,,,,,,,,incentivate parents participation,,,,,,,0,,,,,,,,,,,,,,,,,learning contents,,,,0
+management units,4,,4,,,,,,,,,2,2,2,2,16,,,,training in teaching literacy,1,2,3,,,,,,,,,,,,,,,,,,,,individual actions,,,,,,,0,,,,,,,,,,,,,,,,,learning in right age,,,,0
+mechanism for school permance,3,,3,,,,,,,,,,,,,6,,,,enrollments in nurseries,2,,2,,,,,,,,,,,,,,,,,,,,innovative pedag practices,,,,,,,0,,,,,,,,,,,,,,,,,literacy education,,,,0
+media access,,,,1,,1,,,,,,,,,,2,,,,enrollments in public schools,2,,2,,,,,,,,,,,,,,,,,,,,interactive materials,,,,,,,0,,,,,,,,,,,,,,,,,mechanism for school permance,,,,0
+meet ed-demand,16,,16,,,,,,,,,,,,,32,,,,functional illiterates,2,,2,,,,,,,,,,,,,,,,,,,,internet infrastructure in schools,,,,,,,0,,,,,,,,,,,,,,,,,media access,,,,0
+Microsoft products,,,,1,,,1,,,,1,,,,,3,,,,individual actions,,2,2,,,,,,,,,,,,,,,,,,,,L2 education,,,,,,,0,,,,,,,,,,,,,,,,,meet ed-demand,,,,0
+num of access,,,,1,,,1,,,,1,,,,,3,,,,schooling teacher levels,2,,2,,,,,,,,,,,,,,,,,,,,labs/environments for schools,,,,,,,0,,,,,,,,,,,,,,,,,Microsoft products,,,,0
+num of students per teachers,1,1,,,,,,,,,,,,,,2,,,,simplify bureacreatic process,,2,2,,,,,,,,,,,,,,,,,,,,learning contents,,,,,,,0,,,,,,,,,,,,,,,,,num of access,,,,0
+number of courses in higher education,1,1,,,,,,,,,,,,,,2,,,,target-population,,2,2,,,,,,,,,,,,,,,,,,,,learning in right age,,,,,,,0,,,,,,,,,,,,,,,,,num of students per teachers,,,,0
+open-source software,1,,1,,,,,,,,,,,,,2,,,,training event,,2,2,,,,,,,,,,,,,,,,,,,,literacy education,,,,,,,0,,,,,,,,,,,,,,,,,number of courses in higher education,,,,0
+paper-based material,,,,3,,,3,2,,,1,,,,,9,,,,accessibility facilities,1,,1,,,,,,,,,,,,,,,,,,,,management units,,,,,,,0,,,,,,,,,,,,,,,,,open-source software,,,,0
+participation in national assessment,4,,4,,,,,,,,,,,,,8,,,,collaboration networks,1,,1,,,,,,,,,,,,,,,,,,,,mechanism for school permance,,,,,,,0,,,,,,,,,,,,,,,,,paper-based material,,,,0
+partnership for learning content,,,,2,,,2,1,1,,,,,,,6,,,,enrollments in techical education,1,,1,,,,,,,,,,,,,,,,,,,,meet ed-demand,,,,,,,0,,,,,,,,,,,,,,,,,participation in national assessment,,,,0
+partnership with international agencies,3,,3,1,,,1,1,,,,,,,,9,,,,external assessments,,1,1,,,,,,,,,,,,,,,,,,,,num of students per teachers,,,,,,,0,,,,,,,,,,,,,,,,,partnership for learning content,,,,0
+partnership with private institutions,5,,5,2,,,2,1,,1,,,,,,16,,,,guidelines for digital resources,,1,1,,,,,,,,,,,,,,,,,,,,number of courses in higher education,,,,,,,0,,,,,,,,,,,,,,,,,partnership with international agencies,,,,0
+partnership with public institutions,15,,15,,,,,,,,,1,1,1,1,34,,,,incentivate parents participation,,1,1,,,,,,,,,,,,,,,,,,,,open-source software,,,,,,,0,,,,,,,,,,,,,,,,,partnership with private institutions,,,,0
+physical school infrastructure,11,2,9,,,,,,,,,,,,,22,,,,interactive materials,,1,1,,,,,,,,,,,,,,,,,,,,participation in national assessment,,,,,,,0,,,,,,,,,,,,,,,,,physical school infrastructure,,,,0
+public investment,1,1,,,,,,,,,,,,,,2,,,,num of students per teachers,1,,1,,,,,,,,,,,,,,,,,,,,partnership with public institutions,,,,,,,0,,,,,,,,,,,,,,,,,public investment,,,,0
+quality parameters,3,,3,,,,,,,,,,,,,6,,,,number of courses in higher education,1,,1,,,,,,,,,,,,,,,,,,,,physical school infrastructure,,,,,,,0,,,,,,,,,,,,,,,,,quality parameters,,,,0
+reestructuring learning content,5,,5,,,,,,,,,,,,,10,,,,open-source software,,1,1,,,,,,,,,,,,,,,,,,,,public investment,,,,,,,0,,,,,,,,,,,,,,,,,reestructuring learning content,,,,0
+school attendance (freq),8,5,3,,,,,,,,,,,,,16,,,,public investment,1,,1,,,,,,,,,,,,,,,,,,,,quality parameters,,,,,,,0,,,,,,,,,,,,,,,,,school attendance (freq),,,,0
+school feeding program,,,,1,,,1,1,,,,,,,,3,,,,school time/permance,1,,1,,,,,,,,,,,,,,,,,,,,reestructuring learning content,,,,,,,0,,,,,,,,,,,,,,,,,school feeding program,,,,0
+school health resources,,,,,,,,,,,,1,1,1,1,4,,,,social assistance,,1,1,,,,,,,,,,,,,,,,,,,,school attendance (freq),,,,,,,0,,,,,,,,,,,,,,,,,school time/permance,,,,0
+school time/permance,1,1,,,,,,,,,,,,,,2,,,,student engagement,1,,1,,,,,,,,,,,,,,,,,,,,school health resources,,,,,,,0,,,,,,,,,,,,,,,,,schooling teacher levels,,,,0
+schooling teacher levels,2,2,,,,,,,,,,,,,,4,,,,education radio,,,0,,,,,,,,,,,,,,,,,,,,school time/permance,,,,,,,0,,,,,,,,,,,,,,,,,simplify bureacreatic process,,,,0
+schools actions reports,3,,3,2,1,2,,,,,,1,1,1,1,15,,,,education TV,,,0,,,,,,,,,,,,,,,,,,,,schooling teacher levels,,,,,,,0,,,,,,,,,,,,,,,,,social assistance,,,,0
+simplify bureacreatic process,2,,2,,,,,,,,,,,,,4,,,,equipment for students,,,0,,,,,,,,,,,,,,,,,,,,simplify bureacreatic process,,,,,,,0,,,,,,,,,,,,,,,,,social media,,,,0
+social assistance,1,,1,,,,,,,,,,,,,2,,,,free Internet access,,,0,,,,,,,,,,,,,,,,,,,,social assistance,,,,,,,0,,,,,,,,,,,,,,,,,social/equality program,,,,0
+social media,,,,1,,,1,1,,,,,,,,3,,,,Google products,,,0,,,,,,,,,,,,,,,,,,,,social/equality program,,,,,,,0,,,,,,,,,,,,,,,,,STEAM courses,,,,0
+social/equality program,29,1,28,,,,,,,,,,,,,58,,,,guidelines to remote learning,,,0,,,,,,,,,,,,,,,,,,,,STEAM courses,,,,,,,0,,,,,,,,,,,,,,,,,student engagement,,,,0
+STEAM courses,3,,3,,,,,,,,,,,,,6,,,,learning mobile apps,,,0,,,,,,,,,,,,,,,,,,,,student engagement,,,,,,,0,,,,,,,,,,,,,,,,,student graduation,,,,0
+student engagement,1,1,,,,,,,,,,,,,,2,,,,media access,,,0,,,,,,,,,,,,,,,,,,,,student graduation,,,,,,,0,,,,,,,,,,,,,,,,,target-population,,,,0
+student graduation,3,,3,,,,,,,,,,,,,6,,,,Microsoft products,,,0,,,,,,,,,,,,,,,,,,,,target-population,,,,,,,0,,,,,,,,,,,,,,,,,teacher career,,,,0
+target-population,2,,2,,,,,,,,,,,,,4,,,,num of access,,,0,,,,,,,,,,,,,,,,,,,,teacher career,,,,,,,0,,,,,,,,,,,,,,,,,technology in pedag practices,,,,0
+teacher career,11,3,8,,,,,,,,,,,,,22,,,,paper-based material,,,0,,,,,,,,,,,,,,,,,,,,technology in pedag practices,,,,,,,0,,,,,,,,,,,,,,,,,training event,,,,0
+technology in pedag practices,8,2,6,,,,,,,,,,,,,16,,,,partnership for learning content,,,0,,,,,,,,,,,,,,,,,,,,training in digital resources,,,,,,,0,,,,,,,,,,,,,,,,,training in digital resources,,,,0
+training event,2,,2,1,,,1,,,,1,,,,,7,,,,school feeding program,,,0,,,,,,,,,,,,,,,,,,,,training in education management,,,,,,,0,,,,,,,,,,,,,,,,,training in education management,,,,0
+training in digital resources,3,2,1,,,,,,,,,,,,,6,,,,school health resources,,,0,,,,,,,,,,,,,,,,,,,,training in innovative pedagogical practices,,,,,,,0,,,,,,,,,,,,,,,,,training in innovative pedagogical practices,,,,0
+training in education management,5,,5,,,,,,,,,,,,,10,,,,social media,,,0,,,,,,,,,,,,,,,,,,,,training in teaching literacy,,,,,,,0,,,,,,,,,,,,,,,,,training in teaching literacy,,,,0
+training in innovative pedagogical practices,4,2,2,,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+training in teaching literacy,3,1,2,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+trainning courses,11,1,10,5,,,5,2,1,2,,1,,,1,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Grand Total,333,84,249,38,2,4,33,14,6,4,9,11,7,5,9,808,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+        </head><body> 
+ <style>
+.link {
+stroke: #666;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+.node circle {
+stroke: #fff;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+text {
+font: 7px serif;
+opacity: 0.6;
+pointer-events: none;
+}
+</style>
+
+<script src="hybrid-mato-grosso-do-sul-d3graph_files/d3.js"></script>
+
+<script> 
+ var links = [ { "source" : "partnership", "target" : "partnership with public institutions" }, { "source" : "assess", "target" : "schools actions reports" }, { "source" : "development", "target" : "management units" }, { "source" : "collaboration", "target" : "partnership with public institutions" }, { "source" : "collaboration", "target" : "management units" }, { "source" : "distribution", "target" : "school health resources" }, { "source" : "vision", "target" : "partnership with public institutions" }, { "source" : "vision", "target" : "management units" }, { "source" : "vision", "target" : "schools actions reports" } ] ; 
+ var nodes = {}
+
+// Compute the distinct nodes from the links.
+links.forEach(function(link) {
+link.source = nodes[link.source] ||
+(nodes[link.source] = {name: link.source});
+link.target = nodes[link.target] ||
+(nodes[link.target] = {name: link.target});
+link.value = +link.value;
+});
+
+var width = 1920
+height = 1058;
+
+var force = d3.layout.force()
+.nodes(d3.values(nodes))
+.links(links)
+.size([width, height])
+.linkDistance(50)
+.charge(-200)
+.on("tick", tick)
+.start();
+
+var svg = d3.select("body").append("svg")
+.attr("width", width)
+.attr("height", height);
+
+var link = svg.selectAll(".link")
+.data(force.links())
+.enter().append("line")
+.attr("class", "link");
+
+var node = svg.selectAll(".node")
+.data(force.nodes())
+.enter().append("g")
+.attr("class", "node")
+.on("mouseover", mouseover)
+.on("mouseout", mouseout)
+.on("click", click)
+.on("dblclick", dblclick)
+.call(force.drag);
+
+node.append("circle")
+.attr("r", 8)
+.style("fill", "#3182bd");
+
+node.append("text")
+.attr("x", 12)
+.attr("dy", ".35em")
+.style("fill", "#3182bd")
+.text(function(d) { return d.name; });
+
+function tick() {
+link
+.attr("x1", function(d) { return d.source.x; })
+.attr("y1", function(d) { return d.source.y; })
+.attr("x2", function(d) { return d.target.x; })
+.attr("y2", function(d) { return d.target.y; });
+
+node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+function mouseover() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 16);
+}
+
+function mouseout() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 8);
+}
+// action to take on mouse click
+function click() {
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 22)
+.style("stroke-width", ".5px")
+.style("opacity", 1)
+.style("fill", "#E34A33")
+.style("font", "17.5px serif");
+d3.select(this).select("circle").transition()
+.duration(750)
+.style("fill", "#E34A33")
+.attr("r", 16)
+}
+
+// action to take on mouse double click
+function dblclick() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 6)
+.style("fill", "#E34A33");
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 12)
+.style("stroke", "none")
+.style("fill", "#E34A33")
+.style("stroke", "none")
+.style("opacity", 0.6)
+.style("font", "7px serif");
+}
+
+</script><svg width="1920" height="1058"><line class="link" x1="939.5510216889961" y1="468.18643533323177" x2="939.3627942841625" y2="525.0850565086133"></line><line class="link" x1="1000.9632366812605" y1="490.2384932144247" x2="987.2691475413912" y2="548.7815071099653"></line><line class="link" x1="881.2383299371918" y1="615.8181200659321" x2="885.0736369778778" y2="562.5646895258695"></line><line class="link" x1="887.8120870666473" y1="507.2718003193502" x2="939.3627942841625" y2="525.0850565086133"></line><line class="link" x1="887.8120870666473" y1="507.2718003193502" x2="885.0736369778778" y2="562.5646895258695"></line><line class="link" x1="1067.4601808806453" y1="515.0894916855714" x2="1058.1374813461498" y2="569.5853105882676"></line><line class="link" x1="940.4334453544424" y1="581.0040939217579" x2="939.3627942841625" y2="525.0850565086133"></line><line class="link" x1="940.4334453544424" y1="581.0040939217579" x2="885.0736369778778" y2="562.5646895258695"></line><line class="link" x1="940.4334453544424" y1="581.0040939217579" x2="987.2691475413912" y2="548.7815071099653"></line><g class="node" transform="translate(939.5510216889961,468.18643533323177)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership</text></g><g class="node" transform="translate(939.3627942841625,525.0850565086133)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership with public institutions</text></g><g class="node" transform="translate(1000.9632366812605,490.2384932144247)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">assess</text></g><g class="node" transform="translate(987.2691475413912,548.7815071099653)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">schools actions reports</text></g><g class="node" transform="translate(881.2383299371918,615.8181200659321)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">development</text></g><g class="node" transform="translate(885.0736369778778,562.5646895258695)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">management units</text></g><g class="node" transform="translate(887.8120870666473,507.2718003193502)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">collaboration</text></g><g class="node" transform="translate(1067.4601808806453,515.0894916855714)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">distribution</text></g><g class="node" transform="translate(1058.1374813461498,569.5853105882676)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">school health resources</text></g><g class="node" transform="translate(940.4334453544424,581.0040939217579)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">vision</text></g></svg>
+ </body></html>

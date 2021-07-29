@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+        </head><body> 
+ <style>
+.link {
+stroke: #666;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+.node circle {
+stroke: #fff;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+text {
+font: 7px serif;
+opacity: 0.6;
+pointer-events: none;
+}
+</style>
+
+<script src="remote-paraiba-d3graph_files/d3.js"></script>
+
+<script> 
+ var links = [ { "source" : "training", "target" : "trainning courses" }, { "source" : "partnership", "target" : "partnership with international agencies" }, { "source" : "partnership", "target" : "partnership with private institutions" }, { "source" : "assess", "target" : "academic achievements" }, { "source" : "distribution", "target" : "education TV" }, { "source" : "distribution", "target" : "Google products" }, { "source" : "distribution", "target" : "education radio" }, { "source" : "assess", "target" : "schools actions reports" }, { "source" : "development", "target" : "learning mobile apps" }, { "source" : "development", "target" : "learning platforms" }, { "source" : "assess", "target" : "external assessments" }, { "source" : "distribution", "target" : "paper-based material" }, { "source" : "distribution", "target" : "learning mobile apps" }, { "source" : "distribution", "target" : "trainning courses" }, { "source" : "distribution", "target" : "learning platforms" }, { "source" : "collaboration", "target" : "partnership with international agencies" }, { "source" : "collaboration", "target" : "external assessments" }, { "source" : "collaboration", "target" : "partnership with private institutions" }, { "source" : "distribution", "target" : "school feeding program" }, { "source" : "distribution", "target" : "free Internet access" }, { "source" : "expertise", "target" : "trainning courses" }, { "source" : "expertise", "target" : "hire teachers" }, { "source" : "vision", "target" : "partnership with international agencies" }, { "source" : "vision", "target" : "academic achievements" }, { "source" : "vision", "target" : "external assessments" }, { "source" : "vision", "target" : "schools actions reports" }, { "source" : "vision", "target" : "partnership with private institutions" }, { "source" : "material", "target" : "learning mobile apps" }, { "source" : "material", "target" : "Google products" }, { "source" : "material", "target" : "learning platforms" }, { "source" : "infrastructure", "target" : "learning mobile apps" }, { "source" : "infrastructure", "target" : "education TV" }, { "source" : "infrastructure", "target" : "free Internet access" }, { "source" : "infrastructure", "target" : "Google products" }, { "source" : "infrastructure", "target" : "education radio" }, { "source" : "infrastructure", "target" : "learning platforms" }, { "source" : "material", "target" : "paper-based material" }, { "source" : "material", "target" : "education TV" }, { "source" : "material", "target" : "education radio" } ] ; 
+ var nodes = {}
+
+// Compute the distinct nodes from the links.
+links.forEach(function(link) {
+link.source = nodes[link.source] ||
+(nodes[link.source] = {name: link.source});
+link.target = nodes[link.target] ||
+(nodes[link.target] = {name: link.target});
+link.value = +link.value;
+});
+
+var width = 1920
+height = 1058;
+
+var force = d3.layout.force()
+.nodes(d3.values(nodes))
+.links(links)
+.size([width, height])
+.linkDistance(50)
+.charge(-200)
+.on("tick", tick)
+.start();
+
+var svg = d3.select("body").append("svg")
+.attr("width", width)
+.attr("height", height);
+
+var link = svg.selectAll(".link")
+.data(force.links())
+.enter().append("line")
+.attr("class", "link");
+
+var node = svg.selectAll(".node")
+.data(force.nodes())
+.enter().append("g")
+.attr("class", "node")
+.on("mouseover", mouseover)
+.on("mouseout", mouseout)
+.on("click", click)
+.on("dblclick", dblclick)
+.call(force.drag);
+
+node.append("circle")
+.attr("r", 8)
+.style("fill", "#3182bd");
+
+node.append("text")
+.attr("x", 12)
+.attr("dy", ".35em")
+.style("fill", "#3182bd")
+.text(function(d) { return d.name; });
+
+function tick() {
+link
+.attr("x1", function(d) { return d.source.x; })
+.attr("y1", function(d) { return d.source.y; })
+.attr("x2", function(d) { return d.target.x; })
+.attr("y2", function(d) { return d.target.y; });
+
+node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+function mouseover() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 16);
+}
+
+function mouseout() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 8);
+}
+// action to take on mouse click
+function click() {
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 22)
+.style("stroke-width", ".5px")
+.style("opacity", 1)
+.style("fill", "#E34A33")
+.style("font", "17.5px serif");
+d3.select(this).select("circle").transition()
+.duration(750)
+.style("fill", "#E34A33")
+.attr("r", 16)
+}
+
+// action to take on mouse double click
+function dblclick() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 6)
+.style("fill", "#E34A33");
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 12)
+.style("stroke", "none")
+.style("fill", "#E34A33")
+.style("stroke", "none")
+.style("opacity", 0.6)
+.style("font", "7px serif");
+}
+
+</script><svg width="1920" height="1058"><line class="link" x1="1045.4592697914884" y1="470.5531377615847" x2="990.5278622775879" y2="448.0857961061745"></line><line class="link" x1="1113.3663338296712" y1="591.3846088269469" x2="1077.4378883095867" y2="638.9457230166267"></line><line class="link" x1="1113.3663338296712" y1="591.3846088269469" x2="1061.4033439159034" y2="606.0536483739562"></line><line class="link" x1="917.3300125241092" y1="679.8431205834048" x2="962.0258158675415" y2="642.3806765332304"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="860.736017621388" y2="474.4216058557495"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="852.7851820717094" y2="500.9341086057624"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="880.5416841211749" y2="447.934444483082"></line><line class="link" x1="917.3300125241092" y1="679.8431205834048" x2="975.04900534861" y2="701.7899303487527"></line><line class="link" x1="919.4788285871464" y1="372.32552166268044" x2="908.7022229761099" y2="427.1247243901209"></line><line class="link" x1="919.4788285871464" y1="372.32552166268044" x2="889.6245536464995" y2="424.68945592417253"></line><line class="link" x1="917.3300125241092" y1="679.8431205834048" x2="973.5083055307105" y2="667.1127485740833"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="927.0891651754617" y2="538.7260696949199"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="908.7022229761099" y2="427.1247243901209"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="990.5278622775879" y2="448.0857961061745"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="889.6245536464995" y2="424.68945592417253"></line><line class="link" x1="1016.8597768218742" y1="623.8121253355278" x2="1077.4378883095867" y2="638.9457230166267"></line><line class="link" x1="1016.8597768218742" y1="623.8121253355278" x2="973.5083055307105" y2="667.1127485740833"></line><line class="link" x1="1016.8597768218742" y1="623.8121253355278" x2="1061.4033439159034" y2="606.0536483739562"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="978.8110377181764" y2="508.67696995363076"></line><line class="link" x1="928.734194615242" y1="475.52480607236055" x2="871.0977485061412" y2="495.7032121177282"></line><line class="link" x1="1040.4291138070448" y1="411.0383210794708" x2="990.5278622775879" y2="448.0857961061745"></line><line class="link" x1="1040.4291138070448" y1="411.0383210794708" x2="1097.07830130641" y2="418.98111083447304"></line><line class="link" x1="1026.4766842647043" y1="662.1716023747373" x2="1077.4378883095867" y2="638.9457230166267"></line><line class="link" x1="1026.4766842647043" y1="662.1716023747373" x2="962.0258158675415" y2="642.3806765332304"></line><line class="link" x1="1026.4766842647043" y1="662.1716023747373" x2="973.5083055307105" y2="667.1127485740833"></line><line class="link" x1="1026.4766842647043" y1="662.1716023747373" x2="975.04900534861" y2="701.7899303487527"></line><line class="link" x1="1026.4766842647043" y1="662.1716023747373" x2="1061.4033439159034" y2="606.0536483739562"></line><line class="link" x1="906.5502330013909" y1="490.1540528502411" x2="908.7022229761099" y2="427.1247243901209"></line><line class="link" x1="906.5502330013909" y1="490.1540528502411" x2="852.7851820717094" y2="500.9341086057624"></line><line class="link" x1="906.5502330013909" y1="490.1540528502411" x2="889.6245536464995" y2="424.68945592417253"></line><line class="link" x1="834.5277203600878" y1="437.60864189280016" x2="908.7022229761099" y2="427.1247243901209"></line><line class="link" x1="834.5277203600878" y1="437.60864189280016" x2="860.736017621388" y2="474.4216058557495"></line><line class="link" x1="834.5277203600878" y1="437.60864189280016" x2="871.0977485061412" y2="495.7032121177282"></line><line class="link" x1="834.5277203600878" y1="437.60864189280016" x2="852.7851820717094" y2="500.9341086057624"></line><line class="link" x1="834.5277203600878" y1="437.60864189280016" x2="880.5416841211749" y2="447.934444483082"></line><line class="link" x1="834.5277203600878" y1="437.60864189280016" x2="889.6245536464995" y2="424.68945592417253"></line><line class="link" x1="906.5502330013909" y1="490.1540528502411" x2="927.0891651754617" y2="538.7260696949199"></line><line class="link" x1="906.5502330013909" y1="490.1540528502411" x2="860.736017621388" y2="474.4216058557495"></line><line class="link" x1="906.5502330013909" y1="490.1540528502411" x2="880.5416841211749" y2="447.934444483082"></line><g class="node" transform="translate(1045.4592697914884,470.5531377615847)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training</text></g><g class="node" transform="translate(990.5278622775879,448.0857961061745)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">trainning courses</text></g><g class="node" transform="translate(1113.3663338296712,591.3846088269469)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership</text></g><g class="node" transform="translate(1077.4378883095867,638.9457230166267)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership with international agencies</text></g><g class="node" transform="translate(1061.4033439159034,606.0536483739562)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership with private institutions</text></g><g class="node" transform="translate(917.3300125241092,679.8431205834048)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">assess</text></g><g class="node" transform="translate(962.0258158675415,642.3806765332304)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">academic achievements</text></g><g class="node" transform="translate(928.734194615242,475.52480607236055)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">distribution</text></g><g class="node" transform="translate(860.736017621388,474.4216058557495)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">education TV</text></g><g class="node" transform="translate(852.7851820717094,500.9341086057624)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">Google products</text></g><g class="node" transform="translate(880.5416841211749,447.934444483082)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">education radio</text></g><g class="node" transform="translate(975.04900534861,701.7899303487527)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">schools actions reports</text></g><g class="node" transform="translate(919.4788285871464,372.32552166268044)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">development</text></g><g class="node" transform="translate(908.7022229761099,427.1247243901209)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">learning mobile apps</text></g><g class="node" transform="translate(889.6245536464995,424.68945592417253)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">learning platforms</text></g><g class="node" transform="translate(973.5083055307105,667.1127485740833)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">external assessments</text></g><g class="node" transform="translate(927.0891651754617,538.7260696949199)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">paper-based material</text></g><g class="node" transform="translate(1016.8597768218742,623.8121253355278)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">collaboration</text></g><g class="node" transform="translate(978.8110377181764,508.67696995363076)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">school feeding program</text></g><g class="node" transform="translate(871.0977485061412,495.7032121177282)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">free Internet access</text></g><g class="node" transform="translate(1040.4291138070448,411.0383210794708)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">expertise</text></g><g class="node" transform="translate(1097.07830130641,418.98111083447304)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">hire teachers</text></g><g class="node" transform="translate(1026.4766842647043,662.1716023747373)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">vision</text></g><g class="node" transform="translate(906.5502330013909,490.1540528502411)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">material</text></g><g class="node" transform="translate(834.5277203600878,437.60864189280016)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">infrastructure</text></g></svg>
+ </body></html>

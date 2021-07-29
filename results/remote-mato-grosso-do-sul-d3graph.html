@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+        </head><body> 
+ <style>
+.link {
+stroke: #666;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+.node circle {
+stroke: #fff;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+text {
+font: 7px serif;
+opacity: 0.6;
+pointer-events: none;
+}
+</style>
+
+<script src="remote-mato-grosso-do-sul-d3graph_files/d3.js"></script>
+
+<script> 
+ var links = [ { "source" : "training", "target" : "training event" }, { "source" : "training", "target" : "trainning courses" }, { "source" : "partnership", "target" : "partnership for learning content" }, { "source" : "assess", "target" : "media access" }, { "source" : "distribution", "target" : "digital resouces" }, { "source" : "distribution", "target" : "education TV" }, { "source" : "distribution", "target" : "Google products" }, { "source" : "distribution", "target" : "Microsoft products" }, { "source" : "assess", "target" : "schools actions reports" }, { "source" : "assess", "target" : "num of access" }, { "source" : "development", "target" : "guidelines to remote learning" }, { "source" : "distribution", "target" : "paper-based material" }, { "source" : "distribution", "target" : "training event" }, { "source" : "distribution", "target" : "trainning courses" }, { "source" : "collaboration", "target" : "social media" }, { "source" : "collaboration", "target" : "partnership for learning content" }, { "source" : "expertise", "target" : "training event" }, { "source" : "expertise", "target" : "trainning courses" }, { "source" : "vision", "target" : "guidelines to remote learning" }, { "source" : "vision", "target" : "schools actions reports" }, { "source" : "vision", "target" : "num of access" }, { "source" : "vision", "target" : "media access" }, { "source" : "vision", "target" : "partnership for learning content" }, { "source" : "material", "target" : "digital resouces" }, { "source" : "material", "target" : "Google products" }, { "source" : "material", "target" : "social media" }, { "source" : "material", "target" : "Microsoft products" }, { "source" : "material", "target" : "num of access" }, { "source" : "material", "target" : "partnership for learning content" }, { "source" : "infrastructure", "target" : "digital resouces" }, { "source" : "infrastructure", "target" : "education TV" }, { "source" : "infrastructure", "target" : "Google products" }, { "source" : "infrastructure", "target" : "social media" }, { "source" : "infrastructure", "target" : "Microsoft products" }, { "source" : "material", "target" : "paper-based material" }, { "source" : "material", "target" : "education TV" }, { "source" : "material", "target" : "media access" } ] ; 
+ var nodes = {}
+
+// Compute the distinct nodes from the links.
+links.forEach(function(link) {
+link.source = nodes[link.source] ||
+(nodes[link.source] = {name: link.source});
+link.target = nodes[link.target] ||
+(nodes[link.target] = {name: link.target});
+link.value = +link.value;
+});
+
+var width = 1920
+height = 1058;
+
+var force = d3.layout.force()
+.nodes(d3.values(nodes))
+.links(links)
+.size([width, height])
+.linkDistance(50)
+.charge(-200)
+.on("tick", tick)
+.start();
+
+var svg = d3.select("body").append("svg")
+.attr("width", width)
+.attr("height", height);
+
+var link = svg.selectAll(".link")
+.data(force.links())
+.enter().append("line")
+.attr("class", "link");
+
+var node = svg.selectAll(".node")
+.data(force.nodes())
+.enter().append("g")
+.attr("class", "node")
+.on("mouseover", mouseover)
+.on("mouseout", mouseout)
+.on("click", click)
+.on("dblclick", dblclick)
+.call(force.drag);
+
+node.append("circle")
+.attr("r", 8)
+.style("fill", "#3182bd");
+
+node.append("text")
+.attr("x", 12)
+.attr("dy", ".35em")
+.style("fill", "#3182bd")
+.text(function(d) { return d.name; });
+
+function tick() {
+link
+.attr("x1", function(d) { return d.source.x; })
+.attr("y1", function(d) { return d.source.y; })
+.attr("x2", function(d) { return d.target.x; })
+.attr("y2", function(d) { return d.target.y; });
+
+node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+function mouseover() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 16);
+}
+
+function mouseout() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 8);
+}
+// action to take on mouse click
+function click() {
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 22)
+.style("stroke-width", ".5px")
+.style("opacity", 1)
+.style("fill", "#E34A33")
+.style("font", "17.5px serif");
+d3.select(this).select("circle").transition()
+.duration(750)
+.style("fill", "#E34A33")
+.attr("r", 16)
+}
+
+// action to take on mouse double click
+function dblclick() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 6)
+.style("fill", "#E34A33");
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 12)
+.style("stroke", "none")
+.style("fill", "#E34A33")
+.style("stroke", "none")
+.style("opacity", 0.6)
+.style("font", "7px serif");
+}
+
+</script><svg width="1920" height="1058"><line class="link" x1="1036.027731311219" y1="409.2519248142744" x2="971.4845419106634" y2="386.63919949408427"></line><line class="link" x1="1036.027731311219" y1="409.2519248142744" x2="986.1893159308181" y2="418.26218422769443"></line><line class="link" x1="915.9268758523034" y1="661.6010825569667" x2="936.3218859103962" y2="603.002353722832"></line><line class="link" x1="989.5287762318853" y1="630.791711661578" x2="960.3381400053261" y2="582.9857821578759"></line><line class="link" x1="925.3609716009655" y1="430.7374107134354" x2="884.4582104584778" y2="493.4847125511451"></line><line class="link" x1="925.3609716009655" y1="430.7374107134354" x2="892.0699181708712" y2="474.4877574033676"></line><line class="link" x1="925.3609716009655" y1="430.7374107134354" x2="907.868477540414" y2="486.60463761890276"></line><line class="link" x1="925.3609716009655" y1="430.7374107134354" x2="875.3433129946833" y2="466.6246066829233"></line><line class="link" x1="989.5287762318853" y1="630.791711661578" x2="1038.5878400155923" y2="655.9392014431368"></line><line class="link" x1="989.5287762318853" y1="630.791711661578" x2="979.7958890998583" y2="562.1838315935127"></line><line class="link" x1="1119.0945764220328" y1="558.1042457965088" x2="1072.9384009489336" y2="591.1824899538045"></line><line class="link" x1="925.3609716009655" y1="430.7374107134354" x2="954.5984150789544" y2="485.8330674570876"></line><line class="link" x1="925.3609716009655" y1="430.7374107134354" x2="971.4845419106634" y2="386.63919949408427"></line><line class="link" x1="925.3609716009655" y1="430.7374107134354" x2="986.1893159308181" y2="418.26218422769443"></line><line class="link" x1="871.7884377354611" y1="611.5552814522435" x2="853.6848036038909" y2="554.5943143568376"></line><line class="link" x1="871.7884377354611" y1="611.5552814522435" x2="936.3218859103962" y2="603.002353722832"></line><line class="link" x1="1022.8738317067603" y1="371.11611974482895" x2="971.4845419106634" y2="386.63919949408427"></line><line class="link" x1="1022.8738317067603" y1="371.11611974482895" x2="986.1893159308181" y2="418.26218422769443"></line><line class="link" x1="1012.5505906939312" y1="603.4721685647947" x2="1072.9384009489336" y2="591.1824899538045"></line><line class="link" x1="1012.5505906939312" y1="603.4721685647947" x2="1038.5878400155923" y2="655.9392014431368"></line><line class="link" x1="1012.5505906939312" y1="603.4721685647947" x2="979.7958890998583" y2="562.1838315935127"></line><line class="link" x1="1012.5505906939312" y1="603.4721685647947" x2="960.3381400053261" y2="582.9857821578759"></line><line class="link" x1="1012.5505906939312" y1="603.4721685647947" x2="936.3218859103962" y2="603.002353722832"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="884.4582104584778" y2="493.4847125511451"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="907.868477540414" y2="486.60463761890276"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="853.6848036038909" y2="554.5943143568376"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="875.3433129946833" y2="466.6246066829233"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="979.7958890998583" y2="562.1838315935127"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="936.3218859103962" y2="603.002353722832"></line><line class="link" x1="834.7846899815411" y1="497.60096379849773" x2="884.4582104584778" y2="493.4847125511451"></line><line class="link" x1="834.7846899815411" y1="497.60096379849773" x2="892.0699181708712" y2="474.4877574033676"></line><line class="link" x1="834.7846899815411" y1="497.60096379849773" x2="907.868477540414" y2="486.60463761890276"></line><line class="link" x1="834.7846899815411" y1="497.60096379849773" x2="853.6848036038909" y2="554.5943143568376"></line><line class="link" x1="834.7846899815411" y1="497.60096379849773" x2="875.3433129946833" y2="466.6246066829233"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="954.5984150789544" y2="485.8330674570876"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="892.0699181708712" y2="474.4877574033676"></line><line class="link" x1="916.1408484314966" y1="538.3727868149526" x2="960.3381400053261" y2="582.9857821578759"></line><g class="node" transform="translate(1036.027731311219,409.2519248142744)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training</text></g><g class="node" transform="translate(971.4845419106634,386.63919949408427)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training event</text></g><g class="node" transform="translate(986.1893159308181,418.26218422769443)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">trainning courses</text></g><g class="node" transform="translate(915.9268758523034,661.6010825569667)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership</text></g><g class="node" transform="translate(936.3218859103962,603.002353722832)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership for learning content</text></g><g class="node" transform="translate(989.5287762318853,630.791711661578)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">assess</text></g><g class="node" transform="translate(960.3381400053261,582.9857821578759)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">media access</text></g><g class="node" transform="translate(925.3609716009655,430.7374107134354)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">distribution</text></g><g class="node" transform="translate(884.4582104584778,493.4847125511451)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">digital resouces</text></g><g class="node" transform="translate(892.0699181708712,474.4877574033676)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">education TV</text></g><g class="node" transform="translate(907.868477540414,486.60463761890276)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">Google products</text></g><g class="node" transform="translate(875.3433129946833,466.6246066829233)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">Microsoft products</text></g><g class="node" transform="translate(1038.5878400155923,655.9392014431368)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">schools actions reports</text></g><g class="node" transform="translate(979.7958890998583,562.1838315935127)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">num of access</text></g><g class="node" transform="translate(1119.0945764220328,558.1042457965088)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">development</text></g><g class="node" transform="translate(1072.9384009489336,591.1824899538045)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">guidelines to remote learning</text></g><g class="node" transform="translate(954.5984150789544,485.8330674570876)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">paper-based material</text></g><g class="node" transform="translate(871.7884377354611,611.5552814522435)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">collaboration</text></g><g class="node" transform="translate(853.6848036038909,554.5943143568376)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">social media</text></g><g class="node" transform="translate(1022.8738317067603,371.11611974482895)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">expertise</text></g><g class="node" transform="translate(1012.5505906939312,603.4721685647947)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">vision</text></g><g class="node" transform="translate(916.1408484314966,538.3727868149526)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">material</text></g><g class="node" transform="translate(834.7846899815411,497.60096379849773)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">infrastructure</text></g></svg>
+ </body></html>

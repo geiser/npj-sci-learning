@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+        </head><body> 
+ <style>
+.link {
+stroke: #666;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+.node circle {
+stroke: #fff;
+opacity: 0.6;
+stroke-width: 1.5px;
+}
+text {
+font: 7px serif;
+opacity: 0.6;
+pointer-events: none;
+}
+</style>
+
+<script src="hybrid-codings-d3graph_files/d3.js"></script>
+
+<script> 
+ var links = [ { "source" : "training", "target" : "trainning courses" }, { "source" : "training", "target" : "training in innovative pedagogical practices" }, { "source" : "partnership", "target" : "partnership with public institutions" }, { "source" : "partnership", "target" : "partnership for learning content" }, { "source" : "assess", "target" : "ed-tech adoption" }, { "source" : "assess", "target" : "media access" }, { "source" : "assess", "target" : "schools actions reports" }, { "source" : "development", "target" : "learning mobile apps" }, { "source" : "development", "target" : "learning contents" }, { "source" : "development", "target" : "management units" }, { "source" : "development", "target" : "learning platforms" }, { "source" : "development", "target" : "guidelines to remote learning" }, { "source" : "distribution", "target" : "learning mobile apps" }, { "source" : "distribution", "target" : "equipment for teaching" }, { "source" : "distribution", "target" : "equipment for students" }, { "source" : "distribution", "target" : "trainning courses" }, { "source" : "distribution", "target" : "learning platforms" }, { "source" : "collaboration", "target" : "partnership with public institutions" }, { "source" : "collaboration", "target" : "management units" }, { "source" : "collaboration", "target" : "partnership for learning content" }, { "source" : "promotion", "target" : "everyone learning" }, { "source" : "distribution", "target" : "free Internet access" }, { "source" : "distribution", "target" : "school health resources" }, { "source" : "expertise", "target" : "trainning courses" }, { "source" : "expertise", "target" : "ed-tech adoption" }, { "source" : "expertise", "target" : "training in innovative pedagogical practices" }, { "source" : "expertise", "target" : "hire teachers" }, { "source" : "vision", "target" : "guidelines to remote learning" }, { "source" : "vision", "target" : "partnership with public institutions" }, { "source" : "vision", "target" : "management units" }, { "source" : "vision", "target" : "ed-tech adoption" }, { "source" : "vision", "target" : "schools actions reports" }, { "source" : "vision", "target" : "media access" }, { "source" : "vision", "target" : "everyone learning" }, { "source" : "vision", "target" : "conceptualization of remote learning" }, { "source" : "vision", "target" : "partnership for learning content" }, { "source" : "material", "target" : "learning mobile apps" }, { "source" : "material", "target" : "learning contents" }, { "source" : "material", "target" : "learning platforms" }, { "source" : "material", "target" : "partnership for learning content" }, { "source" : "infrastructure", "target" : "learning mobile apps" }, { "source" : "infrastructure", "target" : "free Internet access" }, { "source" : "infrastructure", "target" : "equipment for teaching" }, { "source" : "infrastructure", "target" : "equipment for students" }, { "source" : "infrastructure", "target" : "learning platforms" }, { "source" : "material", "target" : "media access" } ] ; 
+ var nodes = {}
+
+// Compute the distinct nodes from the links.
+links.forEach(function(link) {
+link.source = nodes[link.source] ||
+(nodes[link.source] = {name: link.source});
+link.target = nodes[link.target] ||
+(nodes[link.target] = {name: link.target});
+link.value = +link.value;
+});
+
+var width = 1920
+height = 1058;
+
+var force = d3.layout.force()
+.nodes(d3.values(nodes))
+.links(links)
+.size([width, height])
+.linkDistance(50)
+.charge(-200)
+.on("tick", tick)
+.start();
+
+var svg = d3.select("body").append("svg")
+.attr("width", width)
+.attr("height", height);
+
+var link = svg.selectAll(".link")
+.data(force.links())
+.enter().append("line")
+.attr("class", "link");
+
+var node = svg.selectAll(".node")
+.data(force.nodes())
+.enter().append("g")
+.attr("class", "node")
+.on("mouseover", mouseover)
+.on("mouseout", mouseout)
+.on("click", click)
+.on("dblclick", dblclick)
+.call(force.drag);
+
+node.append("circle")
+.attr("r", 8)
+.style("fill", "#3182bd");
+
+node.append("text")
+.attr("x", 12)
+.attr("dy", ".35em")
+.style("fill", "#3182bd")
+.text(function(d) { return d.name; });
+
+function tick() {
+link
+.attr("x1", function(d) { return d.source.x; })
+.attr("y1", function(d) { return d.source.y; })
+.attr("x2", function(d) { return d.target.x; })
+.attr("y2", function(d) { return d.target.y; });
+
+node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+function mouseover() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 16);
+}
+
+function mouseout() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 8);
+}
+// action to take on mouse click
+function click() {
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 22)
+.style("stroke-width", ".5px")
+.style("opacity", 1)
+.style("fill", "#E34A33")
+.style("font", "17.5px serif");
+d3.select(this).select("circle").transition()
+.duration(750)
+.style("fill", "#E34A33")
+.attr("r", 16)
+}
+
+// action to take on mouse double click
+function dblclick() {
+d3.select(this).select("circle").transition()
+.duration(750)
+.attr("r", 6)
+.style("fill", "#E34A33");
+d3.select(this).select("text").transition()
+.duration(750)
+.attr("x", 12)
+.style("stroke", "none")
+.style("fill", "#E34A33")
+.style("stroke", "none")
+.style("opacity", 0.6)
+.style("font", "7px serif");
+}
+
+</script><svg width="1920" height="1058"><line class="link" x1="820.6887980655507" y1="594.1730667870398" x2="867.720347593845" y2="550.7109195576821"></line><line class="link" x1="820.6887980655507" y1="594.1730667870398" x2="859.3457136499177" y2="634.7710538080024"></line><line class="link" x1="1121.5706859785873" y1="530.094165255861" x2="1112.5800954739186" y2="586.3579336876726"></line><line class="link" x1="1121.5706859785873" y1="530.094165255861" x2="1057.0064614595792" y2="496.490254179851"></line><line class="link" x1="1045.6380023917893" y1="531.608651730055" x2="993.749176074051" y2="581.8178510902226"></line><line class="link" x1="1045.6380023917893" y1="531.608651730055" x2="1060.011299108191" y2="474.23792785173015"></line><line class="link" x1="1045.6380023917893" y1="531.608651730055" x2="1105.4724523002078" y2="506.8004608604374"></line><line class="link" x1="971.3665585450192" y1="466.9625699803321" x2="932.4824733996358" y2="426.458830574153"></line><line class="link" x1="971.3665585450192" y1="466.9625699803321" x2="986.2956691653053" y2="396.20920602272366"></line><line class="link" x1="971.3665585450192" y1="466.9625699803321" x2="999.8650762417476" y2="532.7852773685374"></line><line class="link" x1="971.3665585450192" y1="466.9625699803321" x2="924.7964812058539" y2="444.4970319865458"></line><line class="link" x1="971.3665585450192" y1="466.9625699803321" x2="1015.9433887363856" y2="505.49093081263266"></line><line class="link" x1="873.8791120651026" y1="476.63376785767804" x2="932.4824733996358" y2="426.458830574153"></line><line class="link" x1="873.8791120651026" y1="476.63376785767804" x2="867.5693723362632" y2="426.05146746339045"></line><line class="link" x1="873.8791120651026" y1="476.63376785767804" x2="837.7619100527173" y2="430.5384118303265"></line><line class="link" x1="873.8791120651026" y1="476.63376785767804" x2="867.720347593845" y2="550.7109195576821"></line><line class="link" x1="873.8791120651026" y1="476.63376785767804" x2="924.7964812058539" y2="444.4970319865458"></line><line class="link" x1="1049.3893959417271" y1="568.7382728280984" x2="1112.5800954739186" y2="586.3579336876726"></line><line class="link" x1="1049.3893959417271" y1="568.7382728280984" x2="999.8650762417476" y2="532.7852773685374"></line><line class="link" x1="1049.3893959417271" y1="568.7382728280984" x2="1057.0064614595792" y2="496.490254179851"></line><line class="link" x1="1070.0074942399283" y1="686.5041470370489" x2="1081.9897748105043" y2="623.5753937710795"></line><line class="link" x1="873.8791120651026" y1="476.63376785767804" x2="844.4674449399498" y2="410.0018155361601"></line><line class="link" x1="873.8791120651026" y1="476.63376785767804" x2="815.6756257088068" y2="499.8829402604847"></line><line class="link" x1="914.9161209389694" y1="603.7456968773882" x2="867.720347593845" y2="550.7109195576821"></line><line class="link" x1="914.9161209389694" y1="603.7456968773882" x2="993.749176074051" y2="581.8178510902226"></line><line class="link" x1="914.9161209389694" y1="603.7456968773882" x2="859.3457136499177" y2="634.7710538080024"></line><line class="link" x1="914.9161209389694" y1="603.7456968773882" x2="906.3980515237529" y2="664.9842177579734"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="1015.9433887363856" y2="505.49093081263266"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="1112.5800954739186" y2="586.3579336876726"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="999.8650762417476" y2="532.7852773685374"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="993.749176074051" y2="581.8178510902226"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="1105.4724523002078" y2="506.8004608604374"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="1060.011299108191" y2="474.23792785173015"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="1081.9897748105043" y2="623.5753937710795"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="1040.760316787577" y2="615.522117842586"></line><line class="link" x1="1066.381828970976" y1="552.5278491667842" x2="1057.0064614595792" y2="496.490254179851"></line><line class="link" x1="1000.7409033788805" y1="441.9367612007001" x2="932.4824733996358" y2="426.458830574153"></line><line class="link" x1="1000.7409033788805" y1="441.9367612007001" x2="986.2956691653053" y2="396.20920602272366"></line><line class="link" x1="1000.7409033788805" y1="441.9367612007001" x2="924.7964812058539" y2="444.4970319865458"></line><line class="link" x1="1000.7409033788805" y1="441.9367612007001" x2="1057.0064614595792" y2="496.490254179851"></line><line class="link" x1="893.3490346202751" y1="384.81802326129224" x2="932.4824733996358" y2="426.458830574153"></line><line class="link" x1="893.3490346202751" y1="384.81802326129224" x2="844.4674449399498" y2="410.0018155361601"></line><line class="link" x1="893.3490346202751" y1="384.81802326129224" x2="867.5693723362632" y2="426.05146746339045"></line><line class="link" x1="893.3490346202751" y1="384.81802326129224" x2="837.7619100527173" y2="430.5384118303265"></line><line class="link" x1="893.3490346202751" y1="384.81802326129224" x2="924.7964812058539" y2="444.4970319865458"></line><line class="link" x1="1000.7409033788805" y1="441.9367612007001" x2="1060.011299108191" y2="474.23792785173015"></line><g class="node" transform="translate(820.6887980655507,594.1730667870398)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training</text></g><g class="node" transform="translate(867.720347593845,550.7109195576821)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">trainning courses</text></g><g class="node" transform="translate(859.3457136499177,634.7710538080024)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">training in innovative pedagogical practices</text></g><g class="node" transform="translate(1121.5706859785873,530.094165255861)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership</text></g><g class="node" transform="translate(1112.5800954739186,586.3579336876726)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership with public institutions</text></g><g class="node" transform="translate(1057.0064614595792,496.490254179851)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">partnership for learning content</text></g><g class="node" transform="translate(1045.6380023917893,531.608651730055)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">assess</text></g><g class="node" transform="translate(993.749176074051,581.8178510902226)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">ed-tech adoption</text></g><g class="node" transform="translate(1060.011299108191,474.23792785173015)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">media access</text></g><g class="node" transform="translate(1105.4724523002078,506.8004608604374)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">schools actions reports</text></g><g class="node" transform="translate(971.3665585450192,466.9625699803321)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">development</text></g><g class="node" transform="translate(932.4824733996358,426.458830574153)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">learning mobile apps</text></g><g class="node" transform="translate(986.2956691653053,396.20920602272366)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">learning contents</text></g><g class="node" transform="translate(999.8650762417476,532.7852773685374)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">management units</text></g><g class="node" transform="translate(924.7964812058539,444.4970319865458)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">learning platforms</text></g><g class="node" transform="translate(1015.9433887363856,505.49093081263266)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">guidelines to remote learning</text></g><g class="node" transform="translate(873.8791120651026,476.63376785767804)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">distribution</text></g><g class="node" transform="translate(867.5693723362632,426.05146746339045)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">equipment for teaching</text></g><g class="node" transform="translate(837.7619100527173,430.5384118303265)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">equipment for students</text></g><g class="node" transform="translate(1049.3893959417271,568.7382728280984)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">collaboration</text></g><g class="node" transform="translate(1070.0074942399283,686.5041470370489)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">promotion</text></g><g class="node" transform="translate(1081.9897748105043,623.5753937710795)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">everyone learning</text></g><g class="node" transform="translate(844.4674449399498,410.0018155361601)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">free Internet access</text></g><g class="node" transform="translate(815.6756257088068,499.8829402604847)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">school health resources</text></g><g class="node" transform="translate(914.9161209389694,603.7456968773882)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">expertise</text></g><g class="node" transform="translate(906.3980515237529,664.9842177579734)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">hire teachers</text></g><g class="node" transform="translate(1066.381828970976,552.5278491667842)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">vision</text></g><g class="node" transform="translate(1040.760316787577,615.522117842586)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">conceptualization of remote learning</text></g><g class="node" transform="translate(1000.7409033788805,441.9367612007001)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">material</text></g><g class="node" transform="translate(893.3490346202751,384.81802326129224)"><circle r="8" style="fill: rgb(49, 130, 189);"></circle><text x="12" dy=".35em" style="fill: rgb(49, 130, 189);">infrastructure</text></g></svg>
+ </body></html>
