@@ -45,38 +45,50 @@ For this analysis we employed the `Stadual Education Plan` of Paraiba (2020-2023
 ## Result: Codings of Education Plan, Remote Learning, and Hybrid Learning for Mato-Grosso-do-Sul (MS) and Paraiba (PB)
 
  
- 
 ### Result: MS/PB codings of Education Plan (before pandemic) 
 
- - Mato Grosso do Sul (MS)
-  
+ - Mato Grosso do Sul (MS) ([RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/plan-mato-grosso-do-sul.rqda))
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul-d3graph.html))
+
  ![MS Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul.png)
  
-  - Paraiba (PB)
+ - Paraiba (PB) ([RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/plan-paraiba.rqda))
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba-d3graph.html))
  
  ![PB Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba.png)
 
 ### Result: MS/PB codings of Remote Learning (pandemic)
 
- - Mato Grosso do Sul (MS)
-  
+ - Mato Grosso do Sul (MS) ([RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/remote-mato-grosso-do-sul.rqda))
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul-d3graph.html))
+
  ![MS Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul.png)
  
- 
-  - Paraiba (PB)
+ - Paraiba (PB) ([RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/remote-paraiba.rqda))
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba-d3graph.html))
  
  ![PB Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba.png)
 
 
 ### Result: MS/PB codings of Hybrid Learning (after pandemic)
 
- - Mato Grosso do Sul (MS)
-  
+
+ - Mato Grosso do Sul (MS) ([RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/hybrid-mato-grosso-do-sul.rqda))
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul-d3graph.html))
+
  ![MS Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul.png)
  
-  - Paraiba (PB)
+ - Paraiba (PB) ([RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/hybrid-paraiba.rqda))
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba-d3graph.html))
  
  ![PB Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba.png)
+
 
  
  
