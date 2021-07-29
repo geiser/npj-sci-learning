@@ -6,8 +6,17 @@
 
 ## Data Source
 
-For this analysis we employed the `Stadual Education Plan` of Paraiba (2020-2023) and Mato-Grosso-do-Sul (2014-2024), Interviews of CIEB and Stadual Secretary about Remote Learning
-
+For this analysis we employed the following data:
+ - Stadual Education Plans
+   - Paraiba (2020-2023) ([PDF](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Plano-Paraiba-2020-2023.pdf), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Plano-Paraiba-2020-2023.txt))
+   - Mato-Grosso-do-Sul (2014-2024) ([PDF](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Plano-Mato-Grosso-2014-2024.pdf), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Plano-Mato-Grosso-do-Sul-2014-2024.txt))
+ - Interviews of CIEB ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Sistematizacao-de-casos.txt))
+ - Interviews of Stadual Secretary
+   - Paraiba  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Paraiba.txt))
+   - Ceara  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Ceará.txt))
+   - Mato-Grosso-do-Sul  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Mato-Grosso-do-Sul.txt))
+   - Parana  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Parana.txt))
+   - Espiritu Santa  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Espirito-Santo.txt)) 
 
 ## Result: Profiles of Education Plan, Remote Learning, and Hybrid Learning from all the gathered data
 
