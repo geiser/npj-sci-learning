@@ -1,0 +1,173 @@
+﻿# Broadband Commission Working Group on Digital Learning
+# Roteiro para estudo de caso no Brasil
+# Coordenação: CETIC.br e CIEB
+
+# Roteiro do Estudo de Caso
+
+## Dados de contextualização da rede de ensino:‎
+*	Número de escolas: 347‎
+*	Número de alunos em cada etapa de ensino:‎
+
+Educação Infantil: 276‎
+Ensino Fundamental: 103.178‎
+Ensino Médio: 88.787‎
+Educação Profissional: 6.571‎
+
+*	Número de professores:‎
+
+Efetivos: 6.473‎
+Convocados: 9.749‎
+
+*	Características das condições socioeconômicas do estado
+
+Mato Grosso do Sul tem atraído investimentos por possuir ‎
+grande potencial ecoturístico, extensas áreas agricultáveis, ‎
+um dos maiores rebanhos bovinos do País, reservas minerais, ‎
+política de incentivos à expansão industrial, centros de ‎
+pesquisa de tecnologia e inovação da cadeia do agronegócio, ‎
+solidez fiscal e eixos rodoviários que ligam o Estado aos ‎
+principais centros consumidores do mercado interno e ‎
+terminais de exportação. O agrobusiness é a principal base da ‎
+economia de Mato Grosso do Sul.‎
+
+*	Qualidade de aprendizagem: resultados IDEB e PISA
+
+IDEB de MS: ‎
+‎- Anos iniciais do EF: 5,7‎
+‎- Anos finais do EF:   4,8‎
+‎- Ensino Médio:         4,2‎
+
+Pisa (2015) - desempenho de MS
+‎- Matemática: 377‎
+‎- Leitura:        407‎
+‎- Ciências:     401‎
+
+Perguntas:‎
+
+## ‎1) Quais as estratégias para continuidade da educação adotadas ‎durante a pandemia?‎
+
+No MS as aulas passaram a ser remotas no dia 23 de março ‎
+de 2020. A princípio, elas ocorreram por meio de iniciativas ‎
+das escolas e com orientação permanente por parte da ‎
+Secretaria de Estado de Educação (SED). Os gestores ‎
+escolares mostraram iniciativa e muitos fizeram uso de ‎
+soluções práticas como grupos virtuais e trocas de conteúdos ‎
+em aplicativos como Whatsapp e Telegram.‎
+Da mesma forma, a SED apoiou na impressão das Atividades ‎
+Pedagógicas Complementares - APC - para os estudantes ‎
+sem acesso à internet.‎
+Somado a isso, a SED buscou importantes parcerias para a ‎
+realização das aulas síncronas (em tempo real) e assíncronas ‎
+‎(material postado em sistema e impresso), visando apoiar ‎
+estudantes e professores na realização das atividades não ‎
+presenciais.‎
+
+## ‎2) Quais as evidências de cobertura e eficácia destas estratégias ‎em termos de engajamento dos alunos e níveis de ‎aprendizagem? (Indicadores quantitativos)‎
+
+Fizemos alterações em nosso sistema de Diário Online, que ‎
+nos permitiu termos os dados, mediante pesquisa, sobre ‎
+como estava sendo o atendimento aos alunos, e que ficou ‎
+assim distribuído: com recursos tecnológicos (44,18%), ‎
+híbrido de recursos tecnológicos e material impresso ‎
+‎(46,87%), somente material impresso (7,03%) e não estavam ‎
+sendo atendidos (1,92%). 92,84% dos professores da Rede ‎
+Estadual de Ensino (REE) responderam à pesquisa. ‎
+
+## ‎3) Quais os investimentos e estratégias adotadas para garantir a ‎infraestrutura necessária para o ensino mediado por ‎tecnologia?‎
+
+Foram disponibilizados recursos já existentes na Secretaria, ‎
+contando também com vários parceiros, que nos atenderam, ‎
+via CONSED, tais como: Fundação Lemann, Instituto Natura, ‎
+Fundação Telefônica Vivo, Instituto Ayrton Senna, dentre ‎
+outros.‎
+
+## ‎4) Quais os investimentos e estratégias adotadas para garantir a ‎formação de professores necessária para o ensino mediado ‎por tecnologia?‎
+
+A Secretaria conta uma Coordenadoria de Formação ‎
+Continuada (CFOR), a qual, em articulação com a ‎
+Superintendência de Informação e Tecnologia da SED/MS, ‎
+preparou vários guias autoinstrucionais para professores e ‎
+alunos, de forma a familiarizá-los com relação ao uso das ‎
+ferramentas digitais disponíveis para as aulas remotas. ‎
+Também contamos com a ajuda de parceiros, como o ‎
+SEBRAE, que preparou uma formação sobre as diversas ‎
+ferramentas que poderiam ser utilizadas nas aulas remotas ‎
+durante a pandemia em que as aulas estariam suspensas.‎
+
+## ‎5) Quais e como foram escolhidos as plataformas e recursos ‎educacionais digitais para o ensino mediado por tecnologia?‎
+
+A primeira delas foi com a Google, que viabilizou o ‎
+‎"ensalamento" e a criação de contas "Gmail" para todos os ‎
+estudantes da REE e também para os professores. Com isso, ‎
+eles contavam com uma série de aplicativos que faziam parte ‎
+do pacote "Google for Education".‎
+
+Outra importante parceria se deu com a Microsoft, que ‎
+disponibilizou os aplicativos do pacote Office - de forma ‎
+gratuita - para todos os estudantes e professores da REE. ‎
+Assim, era ampliado o leque de opções para realização das ‎
+atividades em tempo real e também surgia uma nova ‎
+possibilidade para o compartilhamento de conteúdo.‎
+
+Vale salientar que os estudantes sem conectividade também ‎
+foram atendidos por meio das atividades impressas ‎
+disponibilizadas pelas escolas da Rede. Durante esse período ‎
+de atividades remotas, os gestores se empenharam na ‎
+distribuição das atividades impressas nas próprias escolas e, ‎
+em diversos casos, tivemos registros, ainda, de equipes ‎
+escolares que levaram essas atividades às casas dos nossos ‎
+alunos. Tudo para fazer com que o alcance das nossas ‎
+atividades fosse o maior possível.‎
+
+Esse esforço se traduziu em números. No meio do ano  2020, ‎
+um levantamento da SED apontou que as atividades ‎
+chegavam à quase 98% dos nossos estudantes, média essa ‎
+que se manteve próxima dos mesmos valores (acima dos ‎
+‎90%) até o final do ano.‎
+
+Outro alicerce durante o período de atividades remotas foi a ‎
+transmissão das aulas pela TV Aberta, iniciada no mês de ‎
+maio. No mesmo período, iniciávamos as lives da Educação, ‎
+sempre às segundas, com comunicados direcionados à ‎
+comunidade escolar de MS.‎
+
+## ‎6)‎ A rede de ensino pretende adotar Ensino Híbrido a partir de ‎agora? Qual o desenho dessa estratégia e que investimentos ‎estão sendo realizados para viabilizar a adoção do Ensino ‎Híbrido?‎
+
+O retorno às aulas está previsto para o início do segundo ‎
+semestre de 2021, de forma escalonada e segundo as ‎
+orientações dos órgãos de saúde. A rede já adota o Ensino ‎
+Híbrido e pretende continuar no retorno das aulas.‎
+Em 2020, o Governo de MS, por meio da SED, instituiu a ‎
+Comissão Provisória de Volta às Aulas com representações ‎
+dos órgãos de controle, Ministério Público, Defensoria, ‎
+Secretarias do Poder Executivo, Judiciário, Federação dos ‎
+Trabalhadores da Educação, Sindicato das Instituições ‎
+privadas, das Prefeituras e Secretarias Municipais de ‎
+Educação, dentre outras. A referida Comissão elaborou o ‎
+Protocolo Volta às Aulas para a rede estadual de ensino e que ‎
+serviu de referência à rede municipal e às instituições ‎
+privadas.‎
+
+Posteriormente, a Comissão foi transformada em Comitê de ‎
+Articulação para Efetividade da Política Educacional no ‎
+Estado de Mato Grosso do Sul (CAEPE/MS). A SED já vinha ‎
+se preparando há algum tempo para esse momento, pois ‎
+acreditávamos que iríamos iniciar o ano dessa maneira. ‎
+Foram feitas várias aquisições, como máscaras para alunos e ‎
+professores, dispenser de álcool em gel para as entradas das ‎
+salas de aulas, totens com dispenser de álcool em gel para as ‎
+entradas de alunos e servidores, face shield, dentre outros ‎
+equipamentos. Tudo isso está posto em nosso protocolo de ‎
+biossegurança de volta às aulas. ‎
+
+O CAEPE definiu também pelo processo de monitoramento do ‎
+Protocolo, criando as Comissões Municipais de ‎
+Monitoramento, com representação de diversos segmentos, ‎
+que auxiliarão os gestores escolares a garantir a segurança ‎
+dos estudantes.‎
+
+## ‎7) Existe algum acompanhamento/estudo/avaliação formal dos ‎resultados das ações e investimentos em tecnologia feitos ‎pela rede de ensino?‎
+
+Temos feito alguns acompanhamentos a partir de relatórios ‎
+solicitados às unidades escolares, bem como, ‎
+acompanhamentos via sistemas SED.‎

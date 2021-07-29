@@ -1,0 +1,153 @@
+﻿# Broadband Commission Working Group on Digital Learning
+# Roteiro para Estudo de Caso no Brasil
+# Coordenação: CETIC.br e CIEB
+
+Favor responder de forma breve e objetiva até 4 de junho de 2021 ‎
+
+# Roteiro do Estudo de Caso
+
+## ‎1) Quais as estratégias para continuidade da educação adotadas ‎durante a pandemia do COVID-19?‎
+
+Entendendo que a suspensão do calendário escolar, em março de 2020, seria ‎
+prejudicial ao processo de ensino-aprendizagem dos estudantes paranaenses, ‎
+haja vista que órgãos nacionais e internacionais apontavam um longo período ‎
+de isolamento para inibir a contaminação pelo coronavírus, e, na intenção de ‎
+cumprir com seu compromisso e garantir o direito à educação, esta Secretaria ‎
+buscou alternativas que permitissem aos estudantes o acesso aos conteúdos ‎
+dispostos no currículo, sem esquecer a segurança deles diante do Covid-19.‎
+
+Assim, para a continuidade das atividades escolares, esta Secretaria adotou a ‎
+utilização de várias ferramentas tecnológicas que possibilitam a interação entre ‎
+os estudantes e o corpo docente e, na impossibilidade de acesso a estas, ‎
+disponibilizou, ainda, a transmissão de videoaulas em TV aberta e/ou materiais ‎
+impressos entregues pelas unidades escolares.‎
+
+As aulas transmitidas pela TV, em canal aberto, simultaneamente são ‎
+disponibilizadas aos estudantes, via Youtube, no canal "Aula Paraná Ao Vivo". ‎
+Caso o aluno queira ou precise assistir aulas transmitidas em datas anteriores, ‎
+poderá acessá-las, também, pelo canal do Youtube "Aula Paraná" e escolher, ‎
+pelo ano/série, a data pretendida.‎
+
+Além do acesso pela TV e Youtube, os estudantes podem acessar os ‎
+conteúdos por meio do aplicativo Aula Paraná, disponível para Android e IOS, ‎
+sem a utilização dos dados móveis dos usuários, e pelo Google Classroom.‎
+Caso o estudante não tenha acesso a nenhuma das ferramentas acima, os ‎
+conteúdos são disponibilizados, por meio de cópias impressas, denominadas ‎
+‎"Trilhas de Aprendizagem", as quais devem ser retiradas quinzenalmente na ‎
+escola, na mesma data de retirada do kit merenda.‎
+
+Em relação ao Aplicativo Aula Paraná, compete esclarecer que foram ‎
+contratados serviços de disponibilização, gerenciamento e suporte de ‎
+plataforma que dialogasse com as operadoras de telefonia móvel e permitisse ‎
+a cobrança de tráfego de dados móveis na modalidade reversa, ou seja, sem a ‎
+cobrança pelo uso de dados, nas redes 3G e 4G, dos usuários finais ‎
+‎(estudantes, professores, equipes pedagógicas, diretores e demais ‎
+profissionais da educação). ‎
+
+## ‎2) Quais as evidências de cobertura e eficácia destas estratégias em ‎termos de engajamento dos alunos e níveis de aprendizagem? Existe ‎algum documento com avaliações e indicadores quantitativos?‎
+
+Para acompanhar o engajamento dos estudantes, utilizamos ferramentas como ‎
+o "Power BI - Aula Paraná", o "Power BI - Escola Total" e Planilhas de ‎
+Engajamento. Estas ferramentas proporcionam monitorar em quais plataformas ‎
+os estudantes estavam acessando, por quanto tempo e qual o seu ‎
+desempenho nas atividades. ‎
+Nas escolas, nossos tutores fizeram o acompanhamento personalizado para ‎
+cada realidade. Assim, a análise de dados de engajamento e desempenho ‎
+ocorre desde o nível de mantenedora até o interior de cada instituição de ‎
+ensino vinculada.‎
+
+## ‎3) Quais os investimentos foram necessários para garantir a ‎infraestrutura necessária para oferecer o conteúdo de ensino mediado ‎por tecnologia?‎
+
+A Secretaria de Estado da Educação e do Esporte do Paraná, em 2020, ‎
+formalizou contratos, para a oferta das atividades não presenciais, por ‎
+dispensa de licitação com Operadoras de telefonia (cobrança reversa de ‎
+dados); aplicativo; transmissão via TV. Neste ano de 2021, os serviços estão ‎
+sendo prestados por contatos emergenciais, paralelamente a processos ‎
+licitatórios em tramitação.‎
+
+## ‎4) Quais os investimentos e estratégias adotadas para garantir a ‎formação de professores necessária para o ensino mediado por tecnologia?‎
+
+A SEED/PR se utiliza de diversas estratégias de formação aos docentes. ‎
+Partindo da mantenedora, ocorre os Grupos de Estudos "Professor Formador" ‎
+e "Pedagogo Formador", que visam em seus roteiros desenvolver os ‎
+profissionais em suas práticas e necessidades atuais, como o uso de ‎
+metodologias ativas e de tecnologias aplicadas à educação.
+
+Há um canal no ‎Youtube, chamado "Canal do Professor", onde técnicos da SEED/PR, ‎
+juntamente com profissionais da Escolas, apresentam alternativas ‎
+metodológicas, didática, sugestões e socializam boas práticas para os ‎
+profissionais da educação envolvidos.‎
+
+Ainda foi criado o Canal do Professor - Formação Continuada SEED/PR ‎
+‎(https://www.youtube.com/channel/UCFPIwM0tgqzhSlm0U78AOxQ), por meio ‎
+do qual são realizadas webinares ao vivo, com a interação de docentes de toda ‎a rede.
+
+Destaca-se que todas as webinares realizadas ficam disponíveis no ‎
+Canal, podendo ser acompanhadas de maneira assíncrona.‎
+
+## ‎5)‎ Quais e como foram escolhidas as plataformas e recursos ‎educacionais digitais para o ensino mediado por tecnologia?‎
+
+Visando a atender de forma democrática ao vasto perfil de estudantes da rede ‎
+pública estadual, a SEED/PR adotou o Google Classroom, pelo qual os ‎
+conteúdos, as atividades e as videoaulas são compartilhados com os ‎
+estudantes; o uso de aplicativo (Aula Paraná), pelo qual os estudantes podem ‎
+acessar o Classroom e o Youtube, sem o uso de dados móveis, e acessar os ‎
+conteúdos com os dados patrocinados pela Secretaria; e a transmissão de ‎
+aulas via TV aberta e Youtube.‎
+
+## ‎6) A rede de ensino pretende adotar de forma permanente o Ensino ‎Híbrido a partir de agora?
+ ‎
+Tendo em vista a necessidade da promoção de uma aprendizagem ativa, o ‎
+ensino híbrido continuará atendendo a este propósito em paralelo com a oferta ‎
+de ensino presencial nas instituições, pois cada vez mais tem se percebido a ‎
+importância das tecnologias no protagonismo dos estudantes da rede pública ‎
+estadual de ensino.‎
+
+## ‎7) Qual o desenho do Ensino Híbrido que está sendo planejado? ‎
+
+O ensino híbrido deverá contemplar as diferentes formas de acesso do ‎
+estudante, como também priorizar as aprendizagens essenciais para cada ‎
+ano/série. Dessa forma, todas as estratégias de ensino (tanto síncronas, ‎
+quanto assíncronas), estão sendo elaboradas a partir do Currículo Priorizado ‎
+elaborado pela rede pública estadual.‎
+
+## ‎8) Quais os investimentos estão sendo realizados para viabilizar a ‎adoção do Ensino Híbrido?‎
+
+Está em processo de licitação equipamentos que possibilitarão melhor ‎
+qualidade na transmissão das aulas no ensino hibrido, como a melhoria da ‎
+velocidade de internet; rede lógica em toda a rede; aplicativo Aula Paraná com ‎
+isenção de dados para os alunos; e distribuição de aproximadamente 25.000 ‎
+kits para as instituições de ensino com solução para o ensino híbrido ou kit ‎
+multimídia/vídeoconferência - Educatron, contendo pedestal de chão para TV, ‎
+Webcam HD 720P com microfone omnidirecional, TV de 40' LED, mini teclado ‎
+mouse touchpad sem fio e mini PCTV acoplado.‎
+
+## ‎9) Existe algum acompanhamento/estudo/avaliação formal dos ‎resultados das ações e investimentos em tecnologia feitos pela rede de ‎ensino?‎
+
+Desenvolvido pela SEED, o sistema Power BI permite a visualização de ‎
+quantos meets (aulas ao vivo) são realizados, quantos alunos estão ‎
+participando, o volume de atividades que cada estudante fez, a quantidade que ‎
+acertou etc. Dessa forma, é possível fazer diagnósticos do ensino virtual mais ‎
+abrangente, de Núcleos Regionais de Educação ou de cidades, por exemplo, ‎
+até mais específicos, como de cada aluno, turma ou escola.‎
+
+## ‎10)‎ Quais os fatores de sucesso e oportunidades observados neste ‎período? Quais os principais desafios enfrentados pela rede de ensino?‎
+
+Fatores de sucesso: criação da ferramenta de acompanhamento Power BI; ‎
+tutoria e formação pedagógica com a formação de mais de 20.000 professores ‎
+e 4.000 gestores; engajamento das equipes gestoras, professores, pais e/ou ‎
+responsáveis no desenvolvimento do ensino remoto.‎
+
+Oportunidades: Ampliação do uso de tecnologias no processo de ensino-‎
+aprendizagem.‎
+
+Desafios: multiplicidade das formas de acesso do estudante às aulas; ‎
+formação dos docentes para o desenvolvimento das aulas remotas.‎
+
+Informações adicionais: lucia@cieb.net.br ou marina@cieb.net.br ‎
+  
+
+
+  
+
+‎

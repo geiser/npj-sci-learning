@@ -1,0 +1,64 @@
+# Broadband Commission Working Group on Digital Learning
+# Roteiro para estudo de caso no Brasil
+# Coordenação: CETIC.br e CIEB
+
+# Roteiro do Estudo de Caso
+
+## Dados de contextualização da rede de ensino:‎
+*	Número de escolas: 347‎
+*	Número de alunos em cada etapa de ensino:‎
+
+Educação Infantil: 276‎
+Ensino Fundamental: 103.178‎
+Ensino Médio: 88.787‎
+Educação Profissional: 6.571‎
+
+*	Número de professores:‎
+
+Efetivos: 6.473‎
+Convocados: 9.749‎
+
+*	Características das condições socioeconômicas do estado
+
+Mato Grosso do Sul tem atraído investimentos por possuir ‎
+grande potencial ecoturístico, extensas áreas agricultáveis, ‎
+um dos maiores rebanhos bovinos do País, reservas minerais, ‎
+política de incentivos à expansão industrial, centros de ‎
+pesquisa de tecnologia e inovação da cadeia do agronegócio, ‎
+solidez fiscal e eixos rodoviários que ligam o Estado aos ‎
+principais centros consumidores do mercado interno e ‎
+terminais de exportação. O agrobusiness é a principal base da ‎
+economia de Mato Grosso do Sul.‎
+
+*	Qualidade de aprendizagem: resultados IDEB e PISA
+
+IDEB de MS: ‎
+‎- Anos iniciais do EF: 5,7‎
+‎- Anos finais do EF:   4,8‎
+‎- Ensino Médio:         4,2‎
+
+Pisa (2015) - desempenho de MS
+‎- Matemática: 377‎
+‎- Leitura:        407‎
+‎- Ciências:     401‎
+
+Perguntas:‎
+
+## ‎1) Quais as estratégias para continuidade da educação adotadas ‎durante a pandemia?‎
+
+No MS as aulas passaram a ser remotas no dia 23 de março ‎
+de 2020. A princípio, elas ocorreram por meio de iniciativas ‎
+das escolas e com orientação permanente por parte da ‎
+Secretaria de Estado de Educação (SED). Os gestores ‎
+escolares mostraram iniciativa e muitos fizeram uso de ‎
+soluções práticas como grupos virtuais e trocas de conteúdos ‎
+em aplicativos como Whatsapp e Telegram.‎
+Da mesma forma, a SED apoiou na impressão das Atividades ‎
+Pedagógicas Complementares - APC - para os estudantes ‎
+sem acesso à internet.‎
+Somado a isso, a SED buscou importantes parcerias para a ‎
+realização das aulas síncronas (em tempo real) e assíncronas ‎
+‎(material postado em sistema e impresso), visando apoiar ‎
+estudantes e professores na realização das atividades não ‎
+presenciais.‎
+

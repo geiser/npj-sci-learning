@@ -1,0 +1,237 @@
+
+# Versão 1: Sistematização de casos: educação durante a pandemia
+
+
+	
+## Estratégias adotadas de aprendizagem remota
+
+### Estado: Paraná
+
+Implementação de diferentes estratégias de aprendizagem remota (uso de recursos digitais e materiais impressos); e desenvolvimento de um aplicativo (Aula Paraná) para os estudantes.
+
+
+### Estado: Ceará
+
+Implementação de diferentes estratégias de aprendizagem remota (uso de recursos digitais e materiais impressos);
+produção de guias, diretrizes e planos para apoiar docentes e gestores na implementação do ensino remoto/híbrido;
+publicação de orientações técnicas sobre como adaptar o currículo para o ensino remoto. 
+
+### Estado: Paraíba
+
+Implementação de diferentes estratégias de aprendizagem remota (uso de recursos digitais e materiais impressos);
+desenvolvimento do aplicativo PB Educa; ação de busca ativa em parceria com o Unicef;
+distribuição de kits da alimentação escolar;
+implementação de programas e ações pedagógicas para melhoria do rendimento escolar e preparação para o Enem;
+regimes de colaboração com municípios (Undime – PB) para formação de docentes, oferta de sinal de TV, currículo, etc.
+
+### Estado: Espírito Santo
+
+Implementação de diferentes estratégias de aprendizagem remota (uso de recursos digitais e materiais impressos);
+curadoria e produção de conteúdos digitais;
+criação do aplicativo e do site EscoLar para informar e publicar conteúdos e diretrizes para estudantes, docentes e comunidade escolar. 
+
+### Estado: Mato Grosso do Sul
+
+Implementação de diferentes estratégias de aprendizagem remota (uso de recursos digitais e materiais impressos).
+
+
+
+## Evidências de cobertura e eficácia
+
+### Estado: Paraná
+
+Não informado. 
+
+### Estado: Ceará
+
+Em média, 72,36% dos estudantes têm acesso e interagem com as atividades realizadas remotamente.
+Em relação à aprendizagem, houve um avanço de 3 pontos nos níveis de proficiência em Língua Portuguesa e de 3,9 pontos em Matemática entre 2021 e 2020. 
+
+### Estado: Paraíba
+
+Não informado.
+
+### Estado: Espírito Santo
+
+Em 2020, 72.733 usuários baixaram o app; o site EscoLAR registrou mais de 1,9 milhão de usuários e 3,3 milhões de acessos;
+em média, 87% dos estudantes da rede estadual acessaram as atividades pedagógicas não presenciais;
+250 videoaulas foram produzidas e disponibilizadas no Canal da Sedu no YouTube;
+oferta de 9 cursos online para docentes (6.759 inscritos somente nos cursos voltados para a cultura e fluência digital);
+3.450 profissionais da educação engajados em 13 comunidades virtuais. 
+
+### Estado: Mato Grosso do Sul
+
+98% dos estudantes tiveram acesso às atividades pedagógicas não presenciais. 
+
+Meio pelos quais os estudantes tiveram acesso aos materiais pedagógico: 
+-	por meio de recursos tecnológicos: 44,18%; 
+-	por meio de recursos tecnológicos e material impresso: 46,87%;
+-	por meio de Material impresso: 7,03%
+-	sem atendimento: 1,92%
+
+## Investimentos em infraestrutura
+
+### Estado: Paraná
+
+Cobrança reversa de dados por meio de negociações realizadas (com dispensa de licitação) com operadoras de telefonia.
+Em 2021, os serviços estão sendo prestados por contatos emergenciais, paralelamente a processos licitatórios em tramitação.
+
+### Estado: Ceará
+
+Distribuição de microchips com pacote de dados móveis;
+instalação de kits de multimídia nas escolas (computadores, câmeras e tripés) para gravação e transmissão de aulas; e,
+em 2021, disponibilização de tablets para todos os estudantes do 1o ano do EM.
+
+Investimentos programados para este ano: distribuição de mais de 150 mil tablets para alunos;
+aquisição de notebooks para docentes; e
+reestruturação da Coordenadoria Estadual de Formação Docente e Educação a Distância (Coded/CED) para apoiar o ensino remoto/híbrido.
+
+### Estado: Paraíba
+
+Desenvolvimento de aplicativo para os/as estudantes;
+parceria com o Google para a arquitetura das salas virtuais;
+infraestrutura tecnológica para TV Paraíba Educa. 
+
+### Estado: Espírito Santo
+
+Patrocínio de dados para docentes e estudantes acessaram o app Escolar;
+investimento em chromebooks e modem para acesso à internet, via comodato, para determinados estudantes (principalmente 3o ano EM e EJA);
+aquisição de notebooks e disponibilização de verba para os docentes fazerem suas próprias compras de equipamentos (em 2021). 
+
+### Estado: Mato Grosso do Sul
+
+Utilização de recursos já existentes. 
+
+
+## Formação de professores
+
+### Estado: Paraná
+
+Realização de grupos de estudo sobre metodologias ativas, uso de tecnologias aplicadas à educação e outros temas;
+disseminação de metodologias de ensino, boas práticas e recomendações por meio de vídeos no YouTube gravados por técnicos da Seduc; e
+realização de webinários ao vivo para os professores. 
+
+### Estado: Ceará
+
+Oferta de um programa de formação continuada baseado na matriz de competências digitais de professores do CIEB (6.152 inscritos e 3.598 concluintes), além da realização de oficinas temáticas. 
+Em 2021, o referido programa de formação continuada foi expandido para os municípios, atingindo os seguintes números: 11.644 docentes das redes municipais e 2.149 da rede estadual.
+
+### Estado: Paraíba
+
+Parceria com a Google; planejamento e elaboração de curso de formação continuada para professores sobre ensino remoto e para o ensino híbrido;
+flexibilização no horário de formação do docente;
+utilização da experiência internacional de formação de professores da rede estadual para mediação da formação continuada.
+
+### Estado: Espírito Santo
+
+Realização de ações formativas sobre o uso de tecnologias digitais (cursos EAD, lives e disponibilização de materiais autoinstrucionais); 
+oferta de cursos disponibilizados por outras organizações a partir de parcerias e atividade de curadoria;
+aplicação da Autoavaliação de Competências Digitais do CIEB (em 2021) para fins de diagnóstico e criação de programas formativos direcionados.  
+
+### Estado: Mato Grosso do Sul
+
+Disponibilização de guias autoinstrucionais mais um programa de formação (este ofertado em parceria com o Sebrae) para orientar os professores em relação ao uso das ferramentas digitais nas aulas remotas. 
+
+
+## Plataformas e recursos educacionais utilizados
+
+### Estado: Paraná
+
+Google Classroom;
+aplicativo Aula Paraná, por meio do qual os estudantes podem acessar o Classroom e o YouTube sem o uso de dados móveis; e
+transmissão de aulas via TV aberta e YouTube.
+
+### Estado: Ceará
+
+Adesão a 12 plataformas digitais (adquiridas gratuitamente via chamada pública), como o Google for Education.
+A Seduc também utilizou suas próprias plataformas, como: Professor On-line, Aluno On-line, Sisedu, Enemnarede, ambiente virtual de aprendizagem da Coded/CED (AVACED), entre outros ambientes virtuais com repositórios didático-pedagógicos. 
+
+### Estado: Paraíba
+
+Ferramentas Google;
+aplicativo PB Educa (desenvolvido para os estudantes) e transmissão de aulas na TV Paraíba e na Rádio Tabajara. 
+
+### Estado: Espírito Santo
+
+Ferramentas do Google (Classroom, Drive, Formulários, Documentos etc.);
+YouTube; StreamYard; TV aberta; redes sociais;
+aplicativos Canva for Education, Powtoon, Kahoot, Peardeck, Edupuzzle, hiperdocs, Jambord, Anchor, Genially;
+além de site e aplicativo desenvolvido internamente para distribuir as informações para a comunidade escolar.  
+
+### Estado: Mato Grosso do Sul
+
+Ferramentas do Google; e
+pacote Office (via parceria com a Microsoft). 
+
+
+## Ensino híbrido: planejamento e investimentos
+
+### Estado: Paraná
+
+Pretende adotar o ensino híbrido em paralelo com as aulas presenciais para promover a aprendizagem ativa.
+A abordagem vai contemplar alunos com e sem internet e priorizará as aprendizagens essenciais de cada ano/série.
+
+Em termos de investimentos, está em processo de licitação a compra de equipamentos para melhorar qualidade da transmissão das aulas e a velocidade da internet;
+rede lógica em toda a rede;
+manutenção do patrocínio de dados para alunos; e
+distribuição de aproximadamente 25 mil kits com soluções para o ensino híbrido ou kit multimídia/videoconferência (Educatron, contendo pedestal de chão para TV;  webcam HD 720P com microfone omnidirecional; TV de 40’ LED; mini teclado; mouse touchpad sem fio; e mini PCTV acoplado).
+
+### Estado: Ceará
+
+Planos de adotar o ensino híbrido de forma permanente em todas as escolas do estado.
+Plano de ação para os próximos 10 anos está em elaboração, mas já foi identificada a necessidade de ressignificar os conceitos de frequência, módulo aula e enturmação, considerando que as experiências de aprendizagem poderão ocorrer, inclusive, fora da escola. 
+
+Investimentos:
+-	Distribuição de kits de multimídia (computadores, câmeras e tripés) para gravação e transmissão de aulas;
+-	Aquisição de tablets para estudantes; 
+-	Aquisição de computadores para docentes; 
+-	Aquisição de equipamentos para a produção de conteúdos audiovisuais didático-pedagógicos;
+-	Fortalecimento das plataformas didáticas e pedagógicas da rede;
+-	Produção de conteúdos didáticos-pedagógicos pelos docentes da rede.
+
+### Estado: Paraíba
+
+Pretende adotar o ensino híbrido (em todas as etapas da educação básica) durante a retomada gradativa das aulas presenciais. 
+Para isso, a Seduc está ampliando o quadro de professores, investindo em formação continuada, adquirindo equipamentos tecnológicos e, finalmente, adaptando os espaços escolares. 
+
+### Estado: Espírito Santo
+
+Ainda em fase de definição.
+
+Uma primeira proposta indica a adoção do ensino híbrido no ensino médio para fins de complementação curricular.
+
+### Estado: Mato Grosso do Sul
+
+Pretende adotar o ensino híbrido depois do retorno das aulas presenciais, previsto para o 2o semestre de 2021.
+As ações de planejamento e de investimento não foram informadas. 
+
+
+## Avaliação de evidências
+
+### Estado: Paraná
+
+Utilização de ferramentas (Power BI – Aula Paraná; Power BI – Escola Total; e Planilhas de Engajamento) para monitorar o uso das plataformas digitais (frequência, tempo conectado, volume de atividades realizadas etc.), bem como o desempenho dos estudantes. 
+
+### Estado: Ceará
+
+A partir de uma pesquisa online com os professores, a rede apurou que 73% dos professores tiveram acesso a formações que contribuíram para o desenvolvimento de competências digitais;
+77% avaliaram que as formações foram adequadas ou parcialmente adequadas;
+98% demonstraram interesse em aprofundar-se sobre o uso de recursos tecnológicos no ensino; e
+96,2% informaram ter vontade em continuar usando recursos tecnológicos no ensino. 
+
+A rede também aplicou a Autoavaliação de Competências Digitais de Professores do CIEB. 
+
+### Estado: Paraíba
+
+De acordo com um estudo produzido pela Fundação Getulio Vargas (FGV), a Paraíba implementou o melhor programa de educação remota durante a pandemia. 
+
+### Estado: Espírito Santo
+
+Acompanhamento de métricas de acesso às plataformas e recursos.
+Em 2021, a secretaria aplicou a Autoavaliação de Competências Digitais Docentes, do CIEB.
+A partir da devolutiva, serão propostas ações formativas direcionadas.
+Para este ano ainda, a Seduc também planeja utilizar a ferramenta Guia EduTec para avaliar o nível de adoção de tecnologias digitais da rede e planejar os próximos investimentos.
+
+### Estado: Mato Grosso do Sul
+
+Acompanhamentos a partir de relatórios solicitados às unidades escolares ou pelo sistema digital da secretaria. 

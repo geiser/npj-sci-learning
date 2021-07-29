@@ -1,0 +1,308 @@
+﻿# Broadband Commission Working Group on Digital Learning
+# Roteiro para Estudo de Caso no Brasil
+# Coordenação: CETIC.br e CIEB
+‎ ‎
+# Roteiro do Estudo de Caso
+‎
+## 1) Quais as estratégias para continuidade da educação adotadas durante a ‎pandemia do COVID-19?‎
+
+No Espírito Santo, a interrupção das atividades escolares presenciais em razão da ‎
+pandemia impactou cerca de 240 mil alunos na rede pública estadual. Nesse ‎
+contexto, surgiu a necessidade de garantir o direito à educação dos estudantes por ‎
+meio de alternativas focadas na manutenção das atividades pedagógicas enquanto ‎
+as aulas presenciais estivessem suspensas e no planejamento da recuperação da ‎
+aprendizagem no momento do retorno às escolas.  Além disso, considerando as ‎
+desigualdades no acesso à internet e aos equipamentos tecnológicos e às ‎
+diferenças já existentes nos níveis de aprendizagem dos estudantes, existia a ‎
+demanda por estratégias diversificadas que buscassem reduzir ao máximo a ‎
+ampliação das desigualdades educacionais.‎
+
+Assim, o Programa EscoLAR foi criado com os objetivos de apoiar as escolas e os ‎
+professores na continuidade do processo pedagógico, favorecer o reforço escolar e ‎
+a manutenção do vínculo aluno-escola.‎
+
+Em razão da heterogeneidade de perfis dos alunos da rede estadual, o programa ‎
+busca alcançar suas finalidades com a mediação tecnológica, mas não somente. ‎
+Devido às mencionadas desigualdades de acesso e aprendizagem, a elaboração e ‎
+distribuição de atividades impressas foi adotada como estratégia de inclusão de um ‎
+grupo expressivo de alunos - cerca de 32% dos estudantes acessam as APNPs por ‎
+via impressa. ‎
+
+O Programa EscoLAR integrou, então, as seguintes iniciativas:‎
+‎● Site EscoLAR (contendo os documentos normativos, diretrizes ‎pedagógicas, manuais de orientação e outros)  e Portal do Sedu Digital ‎(contendo todas as plataformas e conteúdos digitais disponíveis para as ‎escolas, além de tutoriais e cenários de uso);‎
+‎● ‎	‎ Material impresso;‎
+‎● ‎	‎ Videoaulas;‎
+‎● ‎	‎ Aplicativo EscoLAR com acesso patrocinado ao Google Sala de Aula, ‎videoaulas produzidas pela Sedu, boletim de notas e portal de conteúdos ‎digitais);‎
+‎●     Comunidades interativas: criação, em 2020, de 8 comunidades interativas ‎para as escolas a fim de que os professores interajam, fomentem e ‎troquem experiências. Em 2021, já são 18 comunidades.‎
+‎●     Portal de conteúdos pedagógicos digitais - Currículo Interativo: plataforma ‎de busca de recursos digitais de aprendizagem, em diferentes formatos. ‎Houve a publicação de 5.116 planos de aula elaborados pela Nova Escola ‎com orientações para ensino remoto, inclusive;‎
+‎●     Conexão com outros projetos: Circuito de Gestão, Todos na Escola;‎
+‎●     Ações formativas para os profissionais da educação (cursos EAD, lives e ‎materiais autoinstrucionais);‎
+‎●     Aquisição de notebooks e pacote de dados para professores;‎
+‎●     Formação de profissionais da educação em ensino híbrido e produção de ‎videoaulas e animações, além de outros ofertados em parceria com a ‎Fundação Telefônica Vivo (Escolas Conectadas).‎
+‎
+
+## 2) Quais as evidências de cobertura e eficácia destas estratégias em termos de ‎ engajamento dos alunos e níveis de aprendizagem? Existe algum documento com ‎avaliações e indicadores quantitativos?‎
+
+O programa EscoLAR é acompanhado por meio de um painel de indicadores e ‎atingiu os seguintes resultados durante o ano de 2020:‎
+‎● ‎	‎72.733 usuários baixaram o App, versão Android e 453 usuários a versão ‎IOS, com uso de dados estimados em 1.27 TB;‎
+‎● ‎	‎1.948.620 usuários no site EscoLAR;‎
+‎● ‎	‎3.314.000 acessos ao site EscoLAR;‎
+‎● ‎	‎ 237.406 alunos no Google Sala de Aula;‎
+‎● ‎	‎10.517 professores no Google Sala de Aula;‎
+‎● ‎	‎8.283 salas de aula ativas no Google Sala de Aula;‎
+‎● ‎	‎86,62% dos alunos da rede estadual com acesso às APNPs (média de ‎todas as modalidades);‎
+‎● ‎	‎87,04% dos alunos do ensino médio da rede estadual com acesso às ‎APNPs;‎
+‎● ‎	‎88,40% dos alunos do ensino fundamental anos finais da rede estadual ‎com acesso às APNPs;‎
+‎● ‎	‎93,00% dos alunos da educação profissional com acesso às APNPs;‎
+‎● ‎	Dentre os alunos com acesso, 70,31% deram devolutiva;‎
+‎● ‎	‎250 videoaulas produzidas e disponibilizadas no Canal da Sedu no ‎Youtube. ‎
+
+Outros dados levantados em 2020 mostram o engajamento da rede nas ações ‎
+definidas pela Secretaria, como:‎
+‎●‎	‎ 283.083 pessoas acessaram continuamente os portais e plataformas de ‎conteúdos digitais durante os meses de janeiro a dezembro de 2020, ‎resultando em 1.438.878 visualizações de páginas;‎
+‎●‎	‎ Ainda em 2020, foram realizadas muitas Lives/webinares, 19 somente ‎para a apropriação tecnológica dos profissionais da educação, resultando ‎em 93.739 visualizações até dezembro;‎
+‎●‎	Foram ofertados 9 cursos online, no Moodle, totalizando 6.759 inscritos, ‎somente nos cursos voltados para a cultura e fluência digital;‎
+‎●‎	‎ 3.450 profissionais da educação engajados em 13 comunidades virtuais, ‎resultando num cenário de uso de tecnologia mais criativo e voltado para ‎as competências digitais - https://padlet.com/sedudigital/boaspraticas .‎
+‎
+## 3)  Quais os investimentos foram necessários para garantir a infraestrutura ‎necessária para oferecer o conteúdo de ensino mediado por tecnologia?‎
+
+A rede estadual já contava, desde 2019, com 194 laboratórios móveis (8 mil ‎
+equipamentos), entregues em 45% das escolas (40 equipamentos cada) e ‎
+disponibilizado wi-fi nas salas de aula, visando a reorganização dos espaços ‎
+escolares. Em 2020, esses equipamentos deram suporte às atividades pedagógicas ‎
+nos momentos de atendimentos presenciais aos alunos, período em que houve ‎
+rodízio.‎
+
+Ainda em 2020, uma pesquisa aplicada pela Secretaria constatou que 76% dos ‎
+nossos estudantes tinham acesso à internet (razoável e rápida), 20% internet lenta ‎
+ou muito lenta e somente 4% não tinha acesso à internet.  Adicionalmente, sabemos ‎
+que 57% dos nossos estudantes não tinha acesso a computadores, 27% faziam uso ‎
+compartilhado e somente 15% faziam uso próprio.  Para atender a esta deficiência, ‎
+foi criado um aplicativo  (App EscoLAR -  ‎
+https://sedudigital.edu.es.gov.br/infraestrutura/aplicativo-escolar ), o qual permite ‎
+acesso com internet patrocinada (gratuita) ao Google Classroom para todos os ‎
+professores e alunos, por meio do uso de Smartphone.  Por meio do Analytics, é ‎
+monitorado o uso do aplicativo e o consumo de dados por dia, mês e ano (por ‎
+operadora), possibilitando, a partir da análise desses dados, a tomada de decisão ‎
+mais segura no fortalecimento desta política. Como exemplo, tal acompanhamento ‎
+permitiu, visto o baixo consumo de dados, a atualização do app incluindo o ‎
+patrocínio para outras ferramentas, como o canal da Sedu no Youtube, portal de ‎
+conteúdos digitais curriculares, Boletim de notas do Sistema de Gestão, notícias da ‎
+Sedu. São iniciativas que expandem as oportunidades de estudo. Encontra-se em ‎
+estudo a inclusão do patrocínio para o Meet, também via Aplicativo EscoLAR. ‎
+Além disso, em 2021, as escolas receberam recursos para aquisição de notebooks ‎
+para atendimento à área administrativa e todos os profissionais da educação ‎
+receberão, no mês de junho, repasses financeiros para aquisição de equipamentos ‎
+de informática e apoio ao custeio de plano de Internet. Será repassado o valor de ‎
+até R$ 7.520,00 por professor beneficiado em efetivo exercício (Lei nº 11.259/2021). ‎
+Outra ação de impacto é o investimento em chromebooks e modem para acesso a ‎
+internet, via comodato, para os estudantes que atendam ao menos a um dos ‎
+seguintes requisitos: estar matriculado no ensino médio noturno; estar matriculado ‎
+no ensino médio em escola que compartilhe transporte com o município; estar ‎
+matriculado na terceira série do ensino médio, regular ou integrado e estudantes ‎
+matriculados na EJA. ‎
+‎
+
+## 4) Quais os investimentos e estratégias adotadas para garantir a formação de ‎professores necessária para o ensino mediado por tecnologia? ‎
+
+A secretaria definiu em sua Política de Formação de Professores a modalidade de ‎
+educação a distância como forma de expandir as oportunidades formativas a todos ‎
+os profissionais da educação do ES, incluindo as redes municipais. Para isso, houve ‎
+a instalação e customização do Moodle e a criação, em 2020, de cursos ‎
+direcionados ao desenvolvimento de conhecimentos necessários para o momento ‎
+vivido, customizados com as referências das escolas estaduais, como o Ensino ‎
+Híbrido e metodologias ativas (80h), produção de videoaulas (80h) e produção de ‎
+animações (40h). ‎
+
+A Secretaria também realizou curadoria de cursos de terceiros, de acesso público e ‎
+que atendiam às necessidades da sua rede de ensino. Para isso, foram efetivadas ‎
+parcerias (sem custos) com outras instituições como a Fundação Telefônica Vivo ‎
+‎(com o Programa de formação para inovação Escolas Conectadas ‎
+‎(https://www.escolasconectadas.org.br/)), a Safernet, com curso voltado para a o ‎
+uso ético, responsável e seguro da internet - Boas Escolhas Online. ‎
+As formações de 2020 voltadas para a apropriação tecnológica podem ser ‎
+conhecidas nos links https://formacoes.sedu.es.gov.br/formacoes-sedu-digital-2020 ‎
+e https://formacoes.sedu.es.gov.br/formacoes-geped-2020. ‎
+Além disso, outros movimentos formativos foram realizados, tais como lives e ‎
+webinários com a participação de escolas e professores inovadores que se ‎
+encontram no nível avançado de uso das ferramentas digitais. Para essas ações ‎
+usamos o StreamYard e Youtube. As gravações são amplamente divulgadas para ‎
+as redes de ensino (estadual e municipais) via portal -  ‎
+https://sedudigital.edu.es.gov.br/cursos/webinar - canal do Youtube e redes sociais.   ‎
+A identificação desses professores inovadores surgiu, em 2020, após parceria com ‎
+o Google visando a certificação Nível 1 de 120 profissionais. Para fomentar a ‎
+comunicação entre esse grupo e também integrar e comunicar com os demais ‎
+professores da rede, foram criadas comunidades virtuais utilizando ferramentas ‎
+definidas pelos professores, como Telegram, WhatsApp e Google Classroom. São ‎
+mais de 4 mil profissionais em processos de colaboração, compartilhamento de ‎
+informações e práticas educativas, bem como produção de materiais/conteúdos ‎
+digitais. Esse movimento ajuda a resolver dificuldades dos docentes e gera ‎
+empoderamento suficiente para fazer com que alguns grupos realizem capacitações ‎
+e projetos específicos com seus professores. ‎
+Para aprimorar ainda mais a definição de cursos EAD e a criação de comunidades, ‎
+de forma que atendam as necessidade dos profissionais da educação, a Secretaria ‎
+está aplicando a Autoavaliação de Competências Digitais de Professores, ‎
+desenvolvida pelo CIEB (Centro de Inovação para Educação Brasileira - ‎
+‎(https://guiaedutec.com.br/), com 23 perguntas de múltipla escolha divididas em 3 ‎
+áreas (pedagógica, cidadania digital e desenvolvimento profissional), onde 12 ‎
+competências são avaliadas em 5 níveis de apropriação - exposição, familiarização, ‎
+adaptação, integração e transformação. Ao responderem este questionário, todos os ‎
+professores recebem uma devolutiva personalizada, informando em qual nível se ‎
+encontra, o que demonstra onde pode aprimorar sua prática profissional ‎
+imediatamente e de forma autônoma, a partir de orientações e direcionamentos ‎
+específicos. ‎
+Com esta ferramenta será possível identificar os professores em nível de ‎
+transformação e que poderão se tornar líderes na aprendizagem dos demais, ‎
+criando novas comunidades ou, ainda, participando como colaboradores nas ‎
+comunidades existentes. Da mesma forma, a ferramenta nos permite localizar ‎
+professores em níveis de exposição e que necessitam de atendimento mais ‎
+específico e básico (iniciantes no uso de tecnologia) e ações formativas, como ‎
+cursos disponibilizados na modalidade a distância (EAD) e lives, que serão ‎
+planejadas para este fim. ‎
+Em breve a Secretaria irá lançar o Guia Edutec, também do Cieb, para medir o nível ‎
+de apropriação tecnológica das escolas nas dimensões visão, competência, ‎
+conteúdo digital e infraestrutura. Aplicado quase que anualmente, seu resultado ‎
+define as prioridade do plano estadual de inovação e tecnologia, bem como os ‎
+planos escolares de inovação e tecnologia -  https://sedudigital.edu.es.gov.br/plano-‎
+inova%C3%A7%C3%A3o.‎
+‎ ‎
+‎## 5) Quais e como foram escolhidos as plataformas e recursos educacionais digitais ‎para o ensino mediado por tecnologia ‎
+
+Em 2018, após pesquisa na rede, observou-se uma tendência das escolas pelo uso ‎
+da plataforma Google. Em 2019 a plataforma foi disponibilizada às 194 escolas com ‎
+laboratório móvel. Em 2020, com a pandemia e o Programa Escolar*, a plataforma ‎
+se tornou a ferramenta oficial para a interação entre professores e estudantes em ‎
+todas as escolas da rede, pois havia a necessidade de criação de salas virtuais, de ‎
+forma a reproduzir o ambiente físico de uma escola. Para isso, foram criadas contas ‎
+de e-mail institucional para todos os estudantes (240 mil) e profissionais da ‎
+educação (16 mil) da rede estadual de ensino (destes, 13 mil são professores) para ‎
+acesso ao Google Classroom e demais ferramentas do Google Workspace for ‎
+Education, como Drive, Formulários, Documentos, possibilitando o ‎
+compartilhamento, a interação, a comunicação e a elaboração de atividades dos ‎
+professores com os alunos ‎
+Em 2020, a Sedu investiu em distribuição de videoaulas via canais de TV abertas ‎
+‎(num primeiro momento por meio de parceria com a Sedu do Amazonas e, após, via ‎
+produção própria de videoaulas). ‎
+A Secretaria também realiza a curadoria de conteúdos digitais  educacionais de ‎
+qualidade e de acesso público, organizados no site Vamos Aprender ‎
+‎(https://curriculo.sedu.es.gov.br/curriculo/vamosaprender/) e na Plataforma Currículo ‎
+Interativo - https://www.curriculointerativo.sedu.es.gov.br/, fruto da parceria com o ‎
+projeto Escola Digital. Essa plataforma foi customizada com metadados tais como ‎
+etapa de ensino, formato de mídia, componente curricular, competências, ‎
+descritores das avaliações externas, tipo de licença e outros. E, ainda, a plataforma ‎
+permite aos professores compartilharem suas produções, como objetos de ‎
+aprendizagem, planos de aula e roteiros de estudos para alunos. ‎
+Em paralelo, a Secretaria utiliza as redes sociais como Facebook ‎
+‎(https://www.facebook.com/sedudigital), Instagram, WhatsApp, canal no Youtube ‎
+‎(https://www.youtube.com/channel/UCrhGi-4uMzAnpC0Bv8ELebQ/playlists)  e ‎
+outras, como o Padlet (https://padlet.com/sedudigital/boaspraticas) como estratégia ‎
+de mobilização e para ampla divulgação das ações e atividades desenvolvidas, de ‎
+forma que professores, alunos e famílias sejam informados e tenham acesso a ‎
+todas as ações formativas ou materiais produzidos. ‎
+Ainda, as escolas são capacitadas e estimuladas a usarem o Canva for Education e ‎
+ferramentas de produção de vídeos, como Powtoon e outras como Kahoot, ‎
+Peardeck, Edupuzzle, hiperdocs, Jambord, Anchor, Genially, para a produção de ‎
+atividades criativas para os alunos e também fomentamos atividades para que os ‎
+alunos criem as suas produções próprias ‎
+‎(https://www.curriculointerativo.sedu.es.gov.br/roteiro-de-estudo/jogando-com-o-‎
+kahoot-65791 , São esforços voltados ao desenvolvimento de metodologias ativas e ‎
+à promoção da competência de autoria e compartilhamento na rede, tanto para ‎
+acesso online, quanto off-line, como o formato em PDF. Tais ferramentas têm ‎
+estimulado professores a elaborarem seus materiais com mais recursos e ‎
+criatividades (https://drive.google.com/file/d/1Ra-2PVYTRoAFbxz-‎
+R4xIe2yk7748xTh8/view). Os professores podem sugerir suas atividades para, após ‎
+curadoria, serem catalogados na Plataforma Currículo Interativo para acesso ‎
+público. https://www.curriculointerativo.sedu.es.gov.br/odas/radioatividade-uma-‎
+trilha-de-aprendizagem-65813 e ‎
+https://www.curriculointerativo.sedu.es.gov.br/roteiro-de-estudo/e-agora-como-faco-‎
+um-mapa-mental-65787 .‎
+Com o objetivo de reunir todas os sites, ferramentas e conteúdos digitais ‎
+disponibilizados às escolas pela Sedu em um único local, foi criado o Portal Sedu ‎
+Digital (https://sedudigital.edu.es.gov.br/), o que facilita a rápida localização das ‎
+informações pelas escolas. ‎
+O Analytics e dashboards são amplamente usados para o monitoramento do uso ‎
+das principais plataformas adotadas pela Sedu.‎
+As plataformas e ferramentas digitais para 2021 podem ser acessadas neste link ‎
+https://drive.google.com/file/d/1SAqR8aCExhp4tiGXpRzc70DmLJMtNfRa/view .‎
+
+## ‎6) A rede de ensino pretende adotar de forma permanente o Ensino Híbrido a partir ‎de agora?
+‎
+Estamos em fase de definição a respeito do ensino híbrido, mas, independente da ‎
+pandemia, precisamos atender a nova estrutura do currículo do ensino médio que ‎
+prevê complementação curricular em diferentes formatos, inclusive online. Com a ‎
+cultura digital em desenvolvimento da rede estadual do ES também há a ‎
+possibilidade de implantação de políticas voltadas ao reforço da aprendizagem e ‎
+projetos específicos, como o de projeto de vida, redação  e outros mediados por ‎
+plataformas e ferramentas digitais.‎
+
+## ‎7)   Qual o desenho do Ensino Híbrido que está sendo planejado? ‎
+Ainda em fase de planejamento.‎
+
+## ‎8)   Quais os investimentos estão sendo realizados para viabilizar a adoção do ‎
+Ensino Híbrido?‎
+Somente a aquisição de equipamentos, a instalação de wi-fi e patrocínio do app ‎
+Escolar necessitam de recursos financeiros. As demais ações foram executadas ‎
+totalmente sem custo. Priorizamos parcerias, conteúdos e ferramentas digitais de ‎
+acesso público e gratuito.‎
+‎ ‎
+## ‎9)   Existe algum acompanhamento/estudo/avaliação formal dos resultados das ‎
+ações e investimentos em tecnologia feitos pela rede de ensino?‎
+
+A Secretaria realiza monitoramento das ações desenvolvidas pelas escolas, ‎
+conforme já mencionado anteriormente.‎
+
+Com a instalação e customização da nova plataforma de capacitação dos ‎
+professores (moodle) houve um aumento substancial na oferta de cursos online e ‎
+vagas para os profissionais da educação.
+
+Em 2020, a Sedu ofertou mais de 50.700 ‎vagas, distribuídas em 27 ações formativas, para os profissionais da educação das ‎
+redes estadual e municipal. Apenas no primeiro semestre de 2021 foram ofertadas ‎
+‎46.100 vagas, distribuídas em 14 ações formativas, também para as duas redes de ‎
+ensino. ‎
+No momento a secretaria está aplicando a Autoavaliação de competências digitais ‎
+dos professores. Entre 01/01/2021 e 31/05/2021, 5.251 professores (as) (que ‎
+correspondem a 30.60% da rede), já responderam à Autoavaliação. ‎
+Em breve o Guia Edutec será aplicado a todas as escolas com mais de 20 alunos ‎
+visando medir o nível de apropriação tecnológica desenvolvida pelas escolas. ‎
+
+##‎ 10) Quais os fatores de sucesso e oportunidades observados neste período? ‎Quais os principais desafios enfrentados pela rede de ensino?‎
+
+Como fatores de sucesso incluímos:‎
+‎●     O Programa Escolar que definiu e regulamentou o trabalho remoto e ‎
+híbrido nas escolas;‎
+‎●  A apropriação tecnológica desenvolvida na rede e a aplicação de ‎
+metodologias ativas. Surgiram muitos canais de youtube com produções ‎
+próprias, assim como a criação autoral de conteúdos utilizando diversas ‎
+ferramentas digitais e não mais somente o consumo de materiais prontos;‎
+‎●     A mudança na forma como as Superintendências Regionais de Educação ‎
+comunicam e capacitam as escolas de sua abrangência. Cada Regional ‎
+ganhou uma comunidade para integrar suas escolas. ‎
+https://sedu.es.gov.br/Not%C3%ADcia/superintendencias-regionais-de-‎
+educacao-realizam-acoes-formativas e ‎
+https://sedu.es.gov.br/Not%C3%ADcia/superintendencias-regionais-de-‎
+educacao-realizam-acoes-formativas-nesta-quarta-feira-19 ;‎
+‎●     O engajamento de professores com mais domínio no uso de tecnologia ‎
+em ações formativas via Meet, colaborando com escolas tanto da rede ‎
+estadual quanto municipais. ‎
+https://sedu.es.gov.br/Not%C3%ADcia/escola-de-laranja-da-terra-realiza-‎
+ciclo-de-oficinas-formativas-sobre-metodologias-de-ensino-por-meio-de-‎
+ferramentas-digitais
+‎●     O mesmo ocorreu na produção colaborativa de atividades inovadoras e ‎
+que serviu de referência para outros: ‎
+https://sedu.es.gov.br/Not%C3%ADcia/professores-de-itarana-criam-‎
+sistema-digital-para-acompanhamento-das-apnps   . .‎
+‎●     Também vale citar a expansão da infraestrutura tecnológica com a criação ‎
+do app escolar com dados patrocinados e as ações de investimento em ‎
+equipamentos e pacote de dados para professores e estudantes. ‎
+https://sedu.es.gov.br/Not%C3%ADcia/governo-publica-decreto-que-‎
+garante-continuidade-do-programa-de-inovacao-educacao-conectada ‎
+Os desafios:‎
+‎●     Muitos alunos ainda não possuem as condições tecnológicas necessárias ‎
+para usufruírem das oportunidades criadas pela Sedu para a rede, como ‎
+as plataformas de interação, de conteúdos digitais e outras ações ‎
+educativas online;‎
+‎●     Muitos locais não possuem ainda sinal de internet de qualidade para que o ‎
+aluno possa usufruir do patrocínio de dados do app Escolar;‎
+‎●     Apenas 30% dos professores participam das comunidades para trocas de ‎
+informações e de práticas. ‎
+

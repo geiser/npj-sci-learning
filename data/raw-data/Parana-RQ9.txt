@@ -1,0 +1,9 @@
+
+## ‎9) Existe algum acompanhamento/estudo/avaliação formal dos ‎resultados das ações e investimentos em tecnologia feitos pela rede de ‎ensino?‎
+
+Desenvolvido pela SEED, o sistema Power BI permite a visualização de ‎
+quantos meets (aulas ao vivo) são realizados, quantos alunos estão ‎
+participando, o volume de atividades que cada estudante fez, a quantidade que ‎
+acertou etc. Dessa forma, é possível fazer diagnósticos do ensino virtual mais ‎
+abrangente, de Núcleos Regionais de Educação ou de cidades, por exemplo, ‎
+até mais específicos, como de cada aluno, turma ou escola.‎
