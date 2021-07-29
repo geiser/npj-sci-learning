@@ -8,38 +8,39 @@
 
 For this analysis we employed the `Stadual Education Plan` of Paraiba (2020-2023) and Mato-Grosso-do-Sul (2014-2024), Interviews of CIEB and Stadual Secretary about Remote Learning
 
-## Result: All codings of Education Plan, Remote Learning, and Hybrid Learning for all data
 
- - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/all-info.rqda)
- - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html))
- - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings-d3graph.html))
+## Result: Profiles of Education Plan, Remote Learning, and Hybrid Learning from all the gathered data
+
+ - Profiles from all gathered data ([csv](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-for-all-data.csv))
+
+### Result: Profile of Education Plan (before pandemic) 
  
- ![All codings](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.png)
+ ![All Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-stadual-plan-MS-PB.png)
+
+### Result: Profile of Remote Learning (pandemic)
+
+ ![All Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-remote-all.png)
+
+### Result: Profile of Hybrid Learning (after pandemic)
  
-### Result: All codings of Education Plan (before pandemic) 
+ ![All Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-hybrid-all.png)
 
- - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/plan.rqda)
- - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.html))
- - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings-d3graph.html))
+
+## Result: Profiles of Education Plan, Remote Learning, and Hybrid Learning from Mato-Grosso-do-Sul (MS) and Paraiba (PB)
+
+ - Profiles from MS and PB ([csv](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-for-MS-PB.csv))
+
+### Result: Profile of Education Plan (before pandemic) 
  
- ![All Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.png)
+ ![All Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-stadual-plan-MS-PB.png)
 
-### Result: All codings of Remote Learning (pandemic)
+### Result: Profile of Remote Learning (pandemic)
 
- - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/remote.rqda)
- - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.html))
- - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings-d3graph.html))
+ ![All Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-remote-MS-PB.png)
+
+### Result: Profile of Hybrid Learning (after pandemic)
  
- ![All Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.png)
-
-
-### Result: All codings of Hybrid Learning (after pandemic)
-
- - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/hybrid.rqda)
- - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.html))
- - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings-d3graph.html))
- 
- ![All Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.png)
+ ![All Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-hybrid-MS-PB.png)
 
 
 ## Result: Codings of Education Plan, Remote Learning, and Hybrid Learning for Mato-Grosso-do-Sul (MS) and Paraiba (PB)
