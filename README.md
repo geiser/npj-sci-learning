@@ -10,27 +10,36 @@ For this analysis we employed the `Stadual Education Plan` of Paraiba (2020-2023
 
 ## Result: All codings of Education Plan, Remote Learning, and Hybrid Learning for all data
 
- - RQDA file ()
- - Codings ([source](), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings-d3graph.html))
- - 3D Graph ([source](), [preview]())
+ - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/all-info.rqda)
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings-d3graph.html))
  
  ![All codings](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.png)
  
- 
 ### Result: All codings of Education Plan (before pandemic) 
 
-
+ - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/plan.rqda)
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings-d3graph.html))
+ 
  ![All Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.png)
 
 ### Result: All codings of Remote Learning (pandemic)
 
+ - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/remote.rqda)
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings-d3graph.html))
+ 
  ![All Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.png)
 
 
 ### Result: All codings of Hybrid Learning (after pandemic)
 
+ - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/data/hybrid.rqda)
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings-d3graph.html))
+ 
  ![All Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.png)
-
 
 
 ## Result: Codings of Education Plan, Remote Learning, and Hybrid Learning for Mato-Grosso-do-Sul (MS) and Paraiba (PB)
