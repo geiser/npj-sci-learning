@@ -18,6 +18,25 @@ For this analysis we employed the following data:
    - Parana  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Parana.txt))
    - Espiritu Santa  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Espirito-Santo.txt)) 
 
+## Result: Frequency of Codings by Categories
+
+ - Codings by Vision
+
+ ![Codings by Vision](https://github.com/geiser/npj-sci-learning/blob/main/results/codings-by-vision.png)
+
+ - Coding by Expertise 
+
+ ![Codings by Expertise](https://github.com/geiser/npj-sci-learning/blob/main/results/codings-by-expertise.png)
+
+ - Coding by Learning Material 
+
+ ![Codings by Learning Material](https://github.com/geiser/npj-sci-learning/blob/main/results/codings-by-material.png)
+
+ - Coding by Infrastructure 
+
+ ![Codings by Infrastructure](https://github.com/geiser/npj-sci-learning/blob/main/results/codings-by-infrastructure.png)
+
+
 ## Result: Profiles of Education Plan, Remote Learning, and Hybrid Learning from all the gathered data
 
  - Profiles from all gathered data ([csv](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-for-all-data.csv))
