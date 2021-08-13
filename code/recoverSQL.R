@@ -1,4 +1,4 @@
-.
+
 (codings <- RQDAQuery("
 SELECT cod.cid AS codeID, free.name AS code, cod.selfirst, cod.seltext, cod.selend,
   cod.fid AS fileID
@@ -108,6 +108,29 @@ write.csv(codingsByCategoriesAndCases, fileEncoding = "UTF-8", row.names = F,
 
 
 (codingsByCategoriesAndCasesAndFileCat <- RQDAQuery("
+SELECT cod.cid AS codeID, free.name AS code, cod.selfirst, cod.selend,  
+  cases.id AS caseID,  cases.name AS caseName,
+  cat.catid AS catID, cat.name AS catName,
+  cod.fid AS fileID, fcat.catid AS fileCatID, fcat.name AS fileCat
+FROM coding AS cod
+INNER JOIN freecode AS free ON free.id = cod.cid
+INNER JOIN caselinkage AS clink ON clink.fid = cod.fid
+INNER JOIN cases ON cases.id = clink.caseid
+INNER JOIN treefile AS tfile ON tfile.fid = cod.fid
+INNER JOIN filecat AS fcat ON fcat.catid = tfile.catid
+INNER JOIN treecode AS tree ON tree.cid = cod.cid
+INNER JOIN codecat AS cat ON cat.catid = tree.catid
+WHERE cod.status = 1 AND free.status = 1 AND clink.status = 1 AND cases.status = 1 AND tfile.status = 1 AND fcat.status = 1 AND tree.status = 1 AND cat.status = 1
+"))
+write.csv(codingsByCategoriesAndCasesAndFileCat, fileEncoding = "UTF-8", row.names = F,
+          file = "rstudio/npj-sci-learning/data/codingsByCategoriesAndCasesAndFileCat.csv")
+
+
+
+
+## Get Profiles
+
+(RQDAQuery("
 SELECT cod.cid AS codeID, free.name AS code, cod.selfirst, cod.selend,
   cases.id AS caseID,  cases.name AS caseName,
   cod.fid AS fileID, fcat.catid AS fileCatID, fcat.name AS fileCat
