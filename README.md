@@ -107,7 +107,12 @@ For this analysis we employed the following data:
  ![MS Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul.png)
  
 
+## Frequency Distribution Analysis of Codings (chi-square test - contigency tables)
 
+### By Themes (based on Kennisnet's Four in Balance model)
+
+ - JASP file ([contingency.jasp](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.jasp))
+ - Contingency table ([preview](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.pdf))
 
 
 ## Other Results: Frequency of Codings by Categories
