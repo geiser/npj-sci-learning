@@ -18,18 +18,14 @@ For this analysis we employed the following data:
    - Parana  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Parana.txt))
    - Espiritu Santa  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Espirito-Santo.txt)) 
 
-# Main Results
-
-## Tables
+# Main Results: Tables
 
  - Codings (file: [codings.csv](https://github.com/geiser/npj-sci-learning/blob/main/data/codings.csv))
  - Codings by categories (file: [codingsByCategories.csv](https://github.com/geiser/npj-sci-learning/blob/main/data/codingsByCategories.csv))
  - Codings by categories and cases (file: [codingsByCategoriesAndCases.csv](https://github.com/geiser/npj-sci-learning/blob/main/data/codingsByCategoriesAndCases.csv))
  - Codings by categories, cases and file categories (file: [codingsByCategoriesAndCasesAndFileCat.csv](https://github.com/geiser/npj-sci-learning/blob/main/data/codingsByCategoriesAndCasesAndFileCat.csv))
 
-## Codings and Semantic Graphs
-
-### From all codings
+# Main Results: Codings and Semantic Graphs
 
  - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/results/all-info.rqda)
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html))
@@ -37,21 +33,21 @@ For this analysis we employed the following data:
 
  ![Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.png)
  
-### From State Plans (before Covid-19)
+## From State Plans (before Covid-19)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings-d3graph.html))
 
  ![Plan Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.png)
  
-### From Interviews (during Covid-19 - remote teaching)
+## From Interviews (during Covid-19 - remote teaching)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings-d3graph.html))
 
  ![Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.png)
  
-### From Interviews (pos Covid-19 - hybrid teaching)
+## From Interviews (pos Covid-19 - hybrid teaching)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings-d3graph.html))
@@ -59,23 +55,23 @@ For this analysis we employed the following data:
  ![Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.png)
 
 
-## Codings and Semantic Graphs of Paraiba (PB)
+# Main Results: Codings and Semantic Graphs of Paraiba (PB)
  
-### From State Plans (before Covid-19) of Paraiba (PB)
+## From State Plans (before Covid-19) of Paraiba (PB)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba-d3graph.html))
  
  ![PB Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-paraiba.png)
 
-### From Interviews (during Covid-19 - remote teaching) of Paraiba (PB)
+## From Interviews (during Covid-19 - remote teaching) of Paraiba (PB)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba-d3graph.html))
  
  ![PB Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-paraiba.png)
 
-### From Interviews (pos Covid-19 - hybrid teaching) of Paraiba (PB)
+## From Interviews (pos Covid-19 - hybrid teaching) of Paraiba (PB)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba-d3graph.html))
@@ -83,23 +79,23 @@ For this analysis we employed the following data:
  ![PB Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-paraiba.png)
 
 
-## Codings and Semantic Graphs of Mato-Grosso-do-Sul (MG)
+# Main Results: Codings and Semantic Graphs of Mato-Grosso-do-Sul (MG)
  
-### From State Plans (before Covid-19) of Mato-Grosso-do-Sul (MG)
+## From State Plans (before Covid-19) of Mato-Grosso-do-Sul (MG)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul-d3graph.html))
 
  ![MS Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-mato-grosso-do-sul.png)
  
-### From Interviews (during Covid-19 - remote teaching) of Mato-Grosso-do-Sul (MG)
+## From Interviews (during Covid-19 - remote teaching) of Mato-Grosso-do-Sul (MG)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul-d3graph.html))
 
  ![MS Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-mato-grosso-do-sul.png)
  
-### From Interviews (pos Covid-19 - hybrid teaching) of Mato-Grosso-do-Sul (MG)
+## From Interviews (pos Covid-19 - hybrid teaching) of Mato-Grosso-do-Sul (MG)
 
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul.html))
  - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul-d3graph.html))
@@ -107,15 +103,28 @@ For this analysis we employed the following data:
  ![MS Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-mato-grosso-do-sul.png)
  
 
-## Frequency Distribution Analysis of Codings (chi-square test - contigency tables)
+# Main Results: Frequency Distribution Analysis of Codings (chi-square test - contigency tables)
 
-### By Themes (based on Kennisnet's Four in Balance model)
+## By Themes (based on Kennisnet's Four in Balance model)
 
  - JASP file ([contingency.jasp](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.jasp))
- - Contingency table ([preview](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.pdf))
+ - Contingency table ([preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.pdf))
 
 
-## Other Results: Frequency of Codings by Categories
+## From Vision Category
+
+ - JASP file ([contingency-vision.jasp](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.jasp))
+ - Contingency table ([preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.pdf))
+
+
+## From Vision Category
+
+ - JASP file ([contingency-infrastructure.jasp](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.jasp))
+ - Contingency table ([preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.pdf))
+
+
+
+# Other Results: Frequency of Codings by Categories
 
  - Codings by Vision
 
