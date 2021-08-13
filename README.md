@@ -20,7 +20,16 @@ For this analysis we employed the following data:
 
 ## Main Results
 
-### Codings
+### Tables
+
+ - Codings (file: [codings.csv](https://github.com/geiser/npj-sci-learning/blob/main/data/codings.csv))
+ - Codings by categories (file: [codingsByCategories.csv](https://github.com/geiser/npj-sci-learning/blob/main/data/codingsByCategories.csv))
+ - Codings by categories and cases (file: [codingsByCategoriesAndCases.csv](https://github.com/geiser/npj-sci-learning/blob/main/data/codingsByCategoriesAndCases.csv))
+ - Codings by categories, cases and file categories (file: [codingsByCategoriesAndCasesAndFileCat.csv](https://github.com/geiser/npj-sci-learning/blob/main/data/codingsByCategoriesAndCasesAndFileCat.csv))
+
+### Codings and Semantic Graphs
+
+#### From all codings
 
  - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/results/all-info.rqda)
  - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html))
@@ -28,6 +37,28 @@ For this analysis we employed the following data:
 
  ![Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.png)
  
+#### From State Plans (before Covid-19)
+
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings-d3graph.html))
+
+ ![Plan Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/plan-codings.png)
+ 
+#### From Interviews (during Covid-19 - remote teaching)
+
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings-d3graph.html))
+
+ ![Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/remote-codings.png)
+ 
+#### From Interviews (pos Covid-19 - hybrid teaching)
+
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings-d3graph.html))
+
+ ![Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/hybrid-codings.png)
+ 
+
 
 
 ## Other Results: Frequency of Codings by Categories
