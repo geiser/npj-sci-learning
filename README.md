@@ -10,7 +10,7 @@ For this analysis we employed the following data:
  - Stadual Education Plans
    - Paraiba (2020-2023) ([PDF](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Plano-Paraiba-2020-2023.pdf), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Plano-Paraiba-2020-2023.txt))
    - Mato-Grosso-do-Sul (2014-2024) ([PDF](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Plano-Mato-Grosso-2014-2024.pdf), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Plano-Mato-Grosso-do-Sul-2014-2024.txt))
- - Interviews of CIEB ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Sistematizacao-de-casos.txt))
+ - Summarization of CIEB ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Sistematizacao-de-casos.txt))
  - Interviews of Stadual Secretary
    - Paraiba  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Paraiba.txt))
    - Ceara  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Ceará.txt))
@@ -18,7 +18,19 @@ For this analysis we employed the following data:
    - Parana  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Parana.txt))
    - Espiritu Santa  ([PDF](), [TXT](https://github.com/geiser/npj-sci-learning/blob/main/data/raw-data/Espirito-Santo.txt)) 
 
-## Result: Frequency of Codings by Categories
+## Main Results
+
+### Codings
+
+ - [RQDA file](https://github.com/geiser/npj-sci-learning/blob/main/results/all-info.rqda)
+ - Codings ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.html))
+ - 3D Graph ([source](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings-d3graph.html), [preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings-d3graph.html))
+
+ ![Codings](https://github.com/geiser/npj-sci-learning/blob/main/results/all-codings.png)
+ 
+
+
+## Other Results: Frequency of Codings by Categories
 
  - Codings by Vision
 
