@@ -159,15 +159,15 @@ For this analysis we employed the following data:
 
  - Profiles from all gathered data ([csv](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-for-all-data.csv))
 
-### Result: Profile of Education Plan (before pandemic) 
+## Result: Profile of Education Plan (before pandemic) 
  
  ![All Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-stadual-plan-MS-PB.png)
 
-### Result: Profile of Remote Learning (pandemic)
+## Result: Profile of Remote Learning (pandemic)
 
  ![All Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-remote-all.png)
 
-### Result: Profile of Hybrid Learning (after pandemic)
+## Result: Profile of Hybrid Learning (after pandemic)
  
  ![All Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-hybrid-all.png)
 
@@ -176,15 +176,15 @@ For this analysis we employed the following data:
 
  - Profiles from MS and PB ([csv](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-for-MS-PB.csv))
 
-### Result: Profile of Education Plan (before pandemic) 
+## Result: Profile of Education Plan (before pandemic) 
  
  ![All Education Plan](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-stadual-plan-MS-PB.png)
 
-### Result: Profile of Remote Learning (pandemic)
+## Result: Profile of Remote Learning (pandemic)
 
  ![All Remote Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-remote-MS-PB.png)
 
-### Result: Profile of Hybrid Learning (after pandemic)
+## Result: Profile of Hybrid Learning (after pandemic)
  
  ![All Hybrid Learning](https://github.com/geiser/npj-sci-learning/blob/main/results/profiles-hybrid-MS-PB.png)
 
