@@ -1,0 +1,79 @@
+
+
+
+\documentclass[6pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+
+\usepackage{multirow}
+\usepackage{booktabs}
+
+
+%\title{Brief Article}
+%\author{The Author}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+%\maketitle
+%\section{}
+%\subsection{}
+
+
+\begin{table}[h]
+	\centering
+	\caption{Contingency Tables}
+	\label{tab:contingencyTables}
+	{
+		\begin{tabular}{lrrrr}
+			\toprule
+			\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{caseName} & \multicolumn{1}{c}{} \\
+			\cline{3-4}
+			catName &  & State Plan & Remote Learning & Total  \\
+			\cmidrule[0.4pt]{1-5}
+			vision & Count & 263.000 & 78.000 & 341.000  \\
+			 & Expected count & 192.334 & 148.666 & 341.000  \\
+			 &  \% within column & 67.092\% & 25.743\% & 49.065\%  \\
+			material & Count & 30.000 & 89.000 & 119.000  \\
+			 & Expected count & 67.119 & 51.881 & 119.000  \\
+			 &  \% within column & 7.653\% & 29.373\% & 17.122\%  \\
+			infrastructure & Count & 33.000 & 90.000 & 123.000  \\
+			 & Expected count & 69.376 & 53.624 & 123.000  \\
+			 &  \% within column & 8.418\% & 29.703\% & 17.698\%  \\
+			expertise & Count & 66.000 & 46.000 & 112.000  \\
+			 & Expected count & 63.171 & 48.829 & 112.000  \\
+			 &  \% within column & 16.837\% & 15.182\% & 16.115\%  \\
+			Total & Count & 392.000 & 303.000 & 695.000  \\
+			 & Expected count & 392.000 & 303.000 & 695.000  \\
+			 &  \% within column & 100.000\% & 100.000\% & 100.000\%  \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+
+
+\begin{table}[h]
+	\centering
+	\caption{Chi-Squared Tests}
+	\label{tab:chi-SquaredTests}
+	{
+		\begin{tabular}{lrrr}
+			\toprule
+			 & Value & df & p  \\
+			\cmidrule[0.4pt]{1-4}
+			X$^{2}$ & 150.679 & 3 & $<$ .001  \\
+			N & 695 &  &    \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+
+
+\end{document}  
