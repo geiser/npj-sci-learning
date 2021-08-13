@@ -111,16 +111,28 @@ For this analysis we employed the following data:
  - Contingency table ([preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency.pdf))
 
 
-## From Vision Category
+## From Vision
 
  - JASP file ([contingency-vision.jasp](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.jasp))
  - Contingency table ([preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-vision.pdf))
 
 
-## From Vision Category
+## From Infrastructure
 
  - JASP file ([contingency-infrastructure.jasp](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.jasp))
  - Contingency table ([preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-infrastructure.pdf))
+
+
+## From Learning Material
+
+ - JASP file ([contingency-material.jasp](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-material.jasp))
+ - Contingency table ([preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-material.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-material.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-material.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-material.pdf))
+
+
+## From Expertise
+
+ - JASP file ([contingency-expertise.jasp](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-expertise.jasp))
+ - Contingency table ([preview](https://htmlpreview.github.io/?https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-expertise.html), [HTML source](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-expertise.html), [latex file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-expertise.tex), [PDF file](https://github.com/geiser/npj-sci-learning/blob/main/results/contingency-expertise.pdf))
 
 
 
